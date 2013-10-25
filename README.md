@@ -10,9 +10,9 @@
 
 App截图
 ==================
-![主题列表](https://github.com/smartweb/RubyChinaiPhoneApp/blob/master/images/list.png)
+![](http://l.ruby-china.org/photo/f1e138e47e8fcaf03850f168d1c847bc.png)
 
-![主题内容页](https://github.com/smartweb/RubyChinaiPhoneApp/blob/master/images/detail.png)
+![](http://l.ruby-china.org/photo/41e345110c720f6232240c713287c087.png)
 
 目前已完成的功能：
 ==================

@@ -1,4 +1,4 @@
-用RubyMotion用的 RubyChina论坛的iPhone App
+用RubyMotion写的 RubyChina论坛的iPhone App
 ==================
 
 安装说明：

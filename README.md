@@ -8,6 +8,11 @@
 3. bundle install
 4. rake
 
+App截图
+==================
+![主题列表](https://github.com/smartweb/RubyChinaiPhoneApp/blob/master/images/list.png)
+
+![主题内容页](https://github.com/smartweb/RubyChinaiPhoneApp/blob/master/images/detail.png)
 
 目前已完成的功能：
 ==================

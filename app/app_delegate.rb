@@ -7,7 +7,7 @@ class AppDelegate < PM::Delegate
     root_view = nav_with_view(TopicList.new)
     
     # Scan.alloc.initWithSide(:front))
-    root_view.setNavigationBarHidden(true, animated:false) 
+    # root_view.setNavigationBarHidden(true, animated:false) 
 
     open_slide_menu SlideMenu, root_view
     

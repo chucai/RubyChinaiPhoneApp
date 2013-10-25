@@ -36,7 +36,7 @@ class Config
     
     
 
-    color = UIColor.redColor
+    color = '#B60900'.uicolor
 
     UINavigationBar.appearance.tintColor    = color
     UITabBar.appearance.tintColor           = color

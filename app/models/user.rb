@@ -4,9 +4,14 @@ class User
 
   def initialize(json={})
     @id       = json[:id]
-    @title    = json[:name]
+    @name     = json[:name]
     @login	  = json[:login]
+    @avatar_url  = json[:avatar_url].to_s
+    @company  = json[:company]
+    @location = json[:location].to_s
+    @body     = json[:body]
 
+    
   end
 
 end

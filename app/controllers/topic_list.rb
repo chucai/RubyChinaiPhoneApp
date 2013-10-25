@@ -3,7 +3,7 @@ class TopicList < PM::Screen
   include ChaComponent
   include Common
 
-  CELL_HEIGHT = 80
+  CELL_HEIGHT = 60
 
   def loadView
     super
@@ -63,12 +63,12 @@ class TopicList < PM::Screen
   def init_table_view
     
     width  ||= view.bounds.size.width
-    height ||= view.bounds.size.height - 45
+    height ||= view.bounds.size.height
 
     @table_view                  = UITableView.plain
     @table_view.delegate         = self
     @table_view.dataSource       = self
-    @table_view.frame            = [[0, 45], [width, height]]
+    @table_view.frame            = [[0, 0], [width, height]]
     @table_view.autoresizingMask = UIViewAutoresizingFlexibleHeight
 
     bg                = UIImageView.new
@@ -106,7 +106,9 @@ class TopicList < PM::Screen
       
       cell = empty_cell
       cell << label(topic.title, '10,10,300,15', 15)
-      
+      cell << image(topic.user.avatar_url, '10,30,20,20')
+      cell << label(topic.user.login, '36,33,100,15', 14, false, '#222222')
+      cell << label(friendly_time(topic.created_at), '-10,33,80,13', 13, false, '#CCCCCC', :right)
       # cell.selectionStyle = UITableViewCellSelectionStyleNone
       # cell.accessoryType  = UITableViewCellAccessoryNone
 
@@ -114,7 +116,8 @@ class TopicList < PM::Screen
   end
 
   def tableView(tableView, didSelectRowAtIndexPath:indexPath)
-    # push Company.new
+    topic = Topic.new(@data[indexPath.row])
+    push TopicDetail.alloc.initWithID(topic.id)
   end
 
   def tableView(tableView, numberOfRowsInSection:section)

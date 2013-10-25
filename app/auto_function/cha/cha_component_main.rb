@@ -79,7 +79,7 @@ module ChaComponent
     separator
   end
 
-  def label(text, frame, size=16, bold=false, color='#000000', background=nil, shadow=false, shadow_color='#CCCCCC', align=nil)
+  def label(text, frame, size=16, bold=false, color='#000000', align=nil, background=nil, shadow=false, shadow_color='#CCCCCC')
     frame                    = get_frame(frame)
     lbl 			               = UILabel.alloc.initWithFrame(frame)
     lbl.text                 = text.to_s

@@ -44,7 +44,7 @@ module Common
                                      appKey:Config::UMENG_APP_KEY,
                                   shareText:text,
                                  shareImage:nil,
-                            shareToSnsNames:[UMShareToSina, UMShareToTencent, UMShareToWechatSession,
+                            shareToSnsNames:[UMShareToSina, UMShareToTencent, UMShareToWechatSession, 
                               UMShareToSms],
                                    delegate:nil)
 

@@ -1,0 +1,24 @@
+PODS:
+  - JSONKit (1.5pre)
+  - PKRevealController (1.0b2)
+  - SDWebImage (3.4):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.4)
+  - SVProgressHUD (0.9)
+  - SVPullToRefresh (0.4.1)
+
+DEPENDENCIES:
+  - JSONKit
+  - PKRevealController
+  - SDWebImage
+  - SVProgressHUD
+  - SVPullToRefresh
+
+SPEC CHECKSUMS:
+  JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601
+  PKRevealController: 631e6a3db833a0c660203c2dba0963109549ec8a
+  SDWebImage: 366188f04c019bfd712d45e3b36aa52070f4abd8
+  SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
+  SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2
+
+COCOAPODS: 0.20.2

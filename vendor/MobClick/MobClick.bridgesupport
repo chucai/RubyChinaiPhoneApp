@@ -1,0 +1,207 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<string_constant name='UMOnlineConfigDidFinishedNotification' nsstring='true' value='OnlineConfigDidFinishedNotification'/>
+<enum name='BATCH' value='1'/>
+<enum name='REALTIME' value='0'/>
+<enum name='SENDDAILY' value='4'/>
+<enum name='SENDWIFIONLY' value='5'/>
+<enum name='SEND_INTERVAL' value='6'/>
+<enum name='SEND_ON_EXIT' value='7'/>
+<class name='MobClick'>
+<method selector='appLaunched' class_method='true'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='appTerminated' class_method='true'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='beginEvent:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='beginEvent:label:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<arg declared_type='NSString*' name='label' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='beginEvent:primarykey:attributes:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<arg declared_type='NSString*' name='keyName' index='1' type='@'/>
+<arg declared_type='NSDictionary*' name='attributes' index='2' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='beginLogPageView:' class_method='true'>
+<arg declared_type='NSString*' name='pageName' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='checkUpdate' class_method='true'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='checkUpdate:cancelButtonTitle:otherButtonTitles:' class_method='true'>
+<arg declared_type='NSString*' name='title' index='0' type='@'/>
+<arg declared_type='NSString*' name='cancelTitle' index='1' type='@'/>
+<arg declared_type='NSString*' name='otherTitle' index='2' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='checkUpdateWithDelegate:selector:' class_method='true'>
+<arg declared_type='id' name='delegate' index='0' type='@'/>
+<arg declared_type='SEL' name='callBackSelectorWithDictionary' index='1' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='endEvent:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='endEvent:label:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<arg declared_type='NSString*' name='label' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='endEvent:primarykey:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<arg declared_type='NSString*' name='keyName' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='endLogPageView:' class_method='true'>
+<arg declared_type='NSString*' name='pageName' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='event:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='event:acc:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<arg declared_type='NSInteger' name='accumulation' index='1' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='event:attributes:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<arg declared_type='NSDictionary*' name='attributes' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='event:attributes:durations:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<arg declared_type='NSDictionary*' name='attributes' index='1' type='@'/>
+<arg declared_type='int' name='millisecond' index='2' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='event:durations:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<arg declared_type='int' name='millisecond' index='1' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='event:label:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<arg declared_type='NSString*' name='label' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='event:label:acc:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<arg declared_type='NSString*' name='label' index='1' type='@'/>
+<arg declared_type='NSInteger' name='accumulation' index='2' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='event:label:durations:' class_method='true'>
+<arg declared_type='NSString*' name='eventId' index='0' type='@'/>
+<arg declared_type='NSString*' name='label' index='1' type='@'/>
+<arg declared_type='int' name='millisecond' index='2' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getAgentVersion' class_method='true'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='getConfigParams' class_method='true'>
+<retval declared_type='NSDictionary*' type='@'/>
+</method>
+<method selector='getConfigParams:' class_method='true'>
+<arg declared_type='NSString*' name='key' index='0' type='@'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='isJailbroken' class_method='true'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='isPirated' class_method='true'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='logPageView:seconds:' class_method='true'>
+<arg declared_type='NSString*' name='pageName' index='0' type='@'/>
+<arg declared_type='int' name='seconds' index='1' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setAppVersion:' class_method='true'>
+<arg declared_type='NSString*' name='appVersion' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setCrashReportEnabled:' class_method='true'>
+<arg declared_type='BOOL' name='value' index='0' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDelegate:' class_method='true'>
+<arg declared_type='id' name='delegate' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDelegate:reportPolicy:' class_method='true'>
+<arg declared_type='id' name='delegate' index='0' type='@'/>
+<arg declared_type='ReportPolicy' name='rp' index='1' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setLatitude:longitude:' class_method='true'>
+<arg declared_type='double' name='latitude' index='0' type='d'/>
+<arg declared_type='double' name='longitude' index='1' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setLocation:' class_method='true'>
+<arg declared_type='CLLocation*' name='location' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setLogEnabled:' class_method='true'>
+<arg declared_type='BOOL' name='value' index='0' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setLogSendInterval:' class_method='true'>
+<arg declared_type='double' name='second' index='0' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='startSession:' class_method='true'>
+<arg declared_type='NSNotification*' name='notification' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='startWithAppkey:' class_method='true'>
+<arg declared_type='NSString*' name='appKey' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='startWithAppkey:reportPolicy:channelId:' class_method='true'>
+<arg declared_type='NSString*' name='appKey' index='0' type='@'/>
+<arg declared_type='ReportPolicy' name='rp' index='1' type='i'/>
+<arg declared_type='NSString*' name='cid' index='2' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='updateOnlineConfig' class_method='true'>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='NSObject'>
+<method selector='appKey'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='appUpdate:'>
+<arg declared_type='NSDictionary*' name='appUpdateInfo' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='channelId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</class>
+<informal_protocol name='MobClickDelegate'>
+<method selector='appKey' type='@8@0:4'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='appUpdate:' type='v12@0:4@8'>
+<arg declared_type='NSDictionary*' name='appUpdateInfo' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='channelId' type='@8@0:4'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</informal_protocol>
+</signatures>

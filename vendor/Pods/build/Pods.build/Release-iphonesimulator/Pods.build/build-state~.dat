@@ -1,0 +1,716 @@
+TPods
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-glyzqrjuotdhxdftzawrwpbaevei/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-fpxskfxmdxgaouaqfaewpnucytlz/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperationManager.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkReachabilityManager.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFSecurityPolicy.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLRequestSerialization.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLResponseSerialization.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051B4C1DC000000000062AD10
+t1370800604
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/libPods.a
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+c00000000524FDFE70000000000001818
+t1380966375
+s6168
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m
+c00000000524FDFE700000000000028C0
+t1380966375
+s10432
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
+c00000000524FDFE7000000000000210B
+t1380966375
+s8459
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m
+c00000000524FDFE70000000000001FFD
+t1380966375
+s8189
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+c00000000524FDFE7000000000000643B
+t1380966375
+s25659
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m
+c00000000524FDFE7000000000000A38C
+t1380966375
+s41868
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m
+c00000000524FDFE70000000000005396
+t1380966375
+s21398
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+c00000000524FDFE70000000000001903
+t1380966375
+s6403
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m
+c00000000524FDFE70000000000000F13
+t1380966375
+s3859
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m
+c00000000524FDFE7000000000000162F
+t1380966375
+s5679
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
+c00000000524FDFE70000000000001CF8
+t1380966375
+s7416
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
+c00000000524FDFE70000000000001CAE
+t1380966375
+s7342
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m
+c00000000524FDFE70000000000001E37
+t1380966375
+s7735
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m
+c00000000524FDFE7000000000000134A
+t1380966375
+s4938
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m
+c00000000524FDFE7000000000002B24E
+t1380966375
+s176718
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-dummy.m
+c00000000524FDFE90000000000000070
+t1380966377
+s112
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-prefix.pch
+c00000000524FDFE90000000000000057
+t1380966377
+s87
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/NSData+GIF.m
+c00000000524FDFE800000000000001D1
+t1380966376
+s465
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDImageCache.m
+c00000000524FDFE80000000000003E0D
+t1380966376
+s15885
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m
+c00000000524FDFE800000000000005E1
+t1380966376
+s1505
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.m
+c00000000524FDFE80000000000000B28
+t1380966376
+s2856
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m
+c00000000524FDFE80000000000002136
+t1380966376
+s8502
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m
+c00000000524FDFE80000000000002A88
+t1380966376
+s10888
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDWebImageManager.m
+c00000000524FDFE800000000000027CE
+t1380966376
+s10190
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m
+c00000000524FDFE80000000000000E81
+t1380966376
+s3713
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m
+c00000000524FDFE800000000000014E8
+t1380966376
+s5352
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/UIImage+GIF.m
+c00000000524FDFE80000000000000FAC
+t1380966376
+s4012
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m
+c00000000524FDFE800000000000002B4
+t1380966376
+s692
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m
+c00000000524FDFE8000000000000135A
+t1380966376
+s4954
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m
+c00000000524FDFE8000000000000620C
+t1380966376
+s25100
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SVPullToRefresh/SVPullToRefresh/UIScrollView+SVInfiniteScrolling.m
+c00000000524FDFE90000000000002AF4
+t1380966377
+s10996
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SVPullToRefresh/SVPullToRefresh/UIScrollView+SVPullToRefresh.m
+c00000000524FDFE90000000000004DE7
+t1380966377
+s19943
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperationManager.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkReachabilityManager.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFSecurityPolicy.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLRequestSerialization.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLResponseSerialization.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/NSData+GIF.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList
+c00000000524FDFEC00000000000011B2
+t1380966380
+s4530
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDImageCache.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDWebImageCompat.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDWebImageDecoder.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDWebImageDownloader.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDWebImageDownloaderOperation.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDWebImageManager.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDWebImagePrefetcher.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SVProgressHUD.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIActivityIndicatorView+AFNetworking.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIAlertView+AFNetworking.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIButton+AFNetworking.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIButton+WebCache.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIImage+GIF.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIImage+MultiFormat.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIImageView+AFNetworking.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIImageView+WebCache.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIProgressView+AFNetworking.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIScrollView+SVInfiniteScrolling.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIScrollView+SVPullToRefresh.o
+t2
+s0
+
+N/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIWebView+AFNetworking.o
+t2
+s0
+
+N/var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-fpxskfxmdxgaouaqfaewpnucytlz/Pods-prefix.pch.pth
+t2
+s0
+
+N/var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-glyzqrjuotdhxdftzawrwpbaevei/Pods-prefix.pch.pth
+t2
+s0
+
+N/var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch.pth
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0c07ba6b1700b841^bc241e6c1700b841^---0#1#0#--18"Check dependencies36"9C0E8B94-751F-4252-8C3E-4E4B07E1195C-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659180.677615
+e402659180.791951
+r1
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.o
+x/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.maa9dad6c1700b841^e4bdca6c1700b841^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m0000000000000000^3981"CompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.o AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -include /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch -MMD -MT dependencies -MF /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.d --serialize-diagnostics /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m -o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.o36"FCCB01D1-FEE9-4E56-B556-C4CD691EFF60-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperationManager.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659180.792654
+e402659181.067325
+r1
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperationManager.o
+x/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m3f1dcb6c1700b841^d13b116d1700b841^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m0000000000000000^4023"CompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperationManager.o AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -include /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch -MMD -MT dependencies -MF /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperationManager.d --serialize-diagnostics /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperationManager.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m -o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperationManager.o36"34E89558-D7C6-4F6F-A891-9E5A54394FF9-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659181.216806
+e402659181.324662
+r0
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o
+x/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m:40:21: error: use of undeclared identifier 'NSURLSessionTask'
+o        request = [(NSURLSessionTask *)[notification object] originalRequest];
+o                    ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m:40:39: error: expected expression
+o        request = [(NSURLSessionTask *)[notification object] originalRequest];
+o                                      ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m:40:54: error: expected ']'
+o        request = [(NSURLSessionTask *)[notification object] originalRequest];
+o                                                     ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m:40:40: note: to match this '['
+o        request = [(NSURLSessionTask *)[notification object] originalRequest];
+o                                       ^
+o3 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m76c2376d1700b841^b421536d1700b841^-1120"/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m:40:21: error: use of undeclared identifier 'NSURLSessionTask'        request = [(NSURLSessionTask *)[notification object] originalRequest];                    ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m:40:39: error: expected expression        request = [(NSURLSessionTask *)[notification object] originalRequest];                                      ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m:40:54: error: expected ']'        request = [(NSURLSessionTask *)[notification object] originalRequest];                                                     ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m:40:40: note: to match this '['        request = [(NSURLSessionTask *)[notification object] originalRequest];                                       ^3 errors generated.3(36%IDEClangDiagnosticActivityLogMessage2@47"Use of undeclared identifier 'NSURLSessionTask'-402659181#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@133"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m0000000000000000^39#20#39#20#1866#0#14"Semantic Issue--2@19"Expected expression-402659181#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@133"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m0000000000000000^39#38#39#38#1884#0#11"Parse Issue--2@12"Expected ']'-402659181#18446744073709551615#0#1(2@17"To match this '['-402659181#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@133"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m0000000000000000^39#39#39#39#1885#0#30"Apple LLVM compiler 4.2 Notice--2#27"com.apple.dt.IDE.diagnostic3@133"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m0000000000000000^39#53#39#53#1899#0#11"Parse Issue--0#0#0#-19%DVTDocumentLocation4@133"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m0000000000000000^4059"CompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -include /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch -MMD -MT dependencies -MF /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.d --serialize-diagnostics /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m -o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o36"C454E682-DE0F-4F01-9C31-A371B930AA78-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkReachabilityManager.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659180.792667
+e402659181.028335
+r1
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkReachabilityManager.o
+x/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.mf512cb6c1700b841^d93f076d1700b841^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m0000000000000000^4017"CompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkReachabilityManager.o AFNetworking/AFNetworking/AFNetworkReachabilityManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -include /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch -MMD -MT dependencies -MF /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkReachabilityManager.d --serialize-diagnostics /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkReachabilityManager.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m -o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkReachabilityManager.o36"83EB09DF-44A9-43EB-B646-4618767CFB92-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFSecurityPolicy.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659181.029670
+e402659181.153463
+r1
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFSecurityPolicy.o
+x/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.mcbd5076d1700b841^6556276d1700b841^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m0000000000000000^3945"CompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFSecurityPolicy.o AFNetworking/AFNetworking/AFSecurityPolicy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -include /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch -MMD -MT dependencies -MF /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFSecurityPolicy.d --serialize-diagnostics /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFSecurityPolicy.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m -o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFSecurityPolicy.o36"EDCA11F9-2189-46C9-BBF1-6C2C6921B771-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659180.792660
+e402659181.215383
+r1
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.o
+x/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.md11ecb6c1700b841^0323376d1700b841^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m0000000000000000^3993"CompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.o AFNetworking/AFNetworking/AFURLConnectionOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -include /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch -MMD -MT dependencies -MF /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.d --serialize-diagnostics /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m -o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.o36"EABA6C4A-6EEF-4CDD-A598-B9E3597DE0A4-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLRequestSerialization.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659181.068698
+e402659181.626447
+r1
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLRequestSerialization.o
+x/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.mf2d2116d1700b841^b35ea06d1700b841^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m0000000000000000^3999"CompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLRequestSerialization.o AFNetworking/AFNetworking/AFURLRequestSerialization.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -include /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch -MMD -MT dependencies -MF /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLRequestSerialization.d --serialize-diagnostics /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLRequestSerialization.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m -o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLRequestSerialization.o36"C960D135-2521-4F58-81B0-B34C2ECD2C47-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLResponseSerialization.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659181.154849
+e402659181.425332
+r1
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLResponseSerialization.o
+x/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m65fc276d1700b841^2ae26c6d1700b841^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m0000000000000000^4005"CompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLResponseSerialization.o AFNetworking/AFNetworking/AFURLResponseSerialization.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -include /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch -MMD -MT dependencies -MF /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLResponseSerialization.d --serialize-diagnostics /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLResponseSerialization.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m -o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/AFURLResponseSerialization.o36"17BCBBE3-CD8D-4C15-BE99-94D9501505AD-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659180.627547
+e402659181.828657
+r1
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.o
+x/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:745:245: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]
+o  if((objectsPtr     == NULL)  && (NSMaxRange(range) > 0UL))   { [NSException raise:NSRangeException format:@"*** -[%@ %@]: pointer to objects array is NULL but range length is %lu", NSStringFromClass([self class]), NSStringFromSelector(_cmd), NSMaxRange(range)];        }
+o                                                                                                                                                                                 ~~~                                                                ^~~~~~~~~~~~~~~~~
+o                                                                                                                                                                                                                                                    (unsigned long)
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:746:245: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]
+o  if((range.location >  count) || (NSMaxRange(range) > count)) { [NSException raise:NSRangeException format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",                          NSStringFromClass([self class]), NSStringFromSelector(_cmd), NSMaxRange(range), count]; }
+o                                                                                                                                   ~~~                                                                                                              ^~~~~~~~~~~~~~~~~
+o                                                                                                                                                                                                                                                    (unsigned long)
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:746:264: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]
+o  if((range.location >  count) || (NSMaxRange(range) > count)) { [NSException raise:NSRangeException format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",                          NSStringFromClass([self class]), NSStringFromSelector(_cmd), NSMaxRange(range), count]; }
+o                                                                                                                                                       ~~~                                                                                                             ^~~~~
+o                                                                                                                                                                                                                                                                       (unsigned long)
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:752:184: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]
+o  if(objectIndex >= count) { [NSException raise:NSRangeException format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)", NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count]; }
+o                                                                                               ~~~                                                                                     ^~~~~~~~~~~
+o                                                                                                                                                                                       (unsigned long)
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:752:197: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]
+o  if(objectIndex >= count) { [NSException raise:NSRangeException format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)", NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count]; }
+o                                                                                                                   ~~~                                                                              ^~~~~
+o                                                                                                                                                                                                    (unsigned long)
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:773:209: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]
+o  if(objectIndex >  count) { [NSException raise:NSRangeException                 format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",          NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count + 1UL]; }
+o                                                                                                               ~~~                                                                                              ^~~~~~~~~~~
+o                                                                                                                                                                                                                (unsigned long)
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:786:209: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]
+o  if(objectIndex >= count) { [NSException raise:NSRangeException                 format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",          NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count]; }
+o                                                                                                               ~~~                                                                                              ^~~~~~~~~~~
+o                                                                                                                                                                                                                (unsigned long)
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:786:222: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]
+o  if(objectIndex >= count) { [NSException raise:NSRangeException                 format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",          NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count]; }
+o                                                                                                                                   ~~~                                                                                       ^~~~~
+o                                                                                                                                                                                                                             (unsigned long)
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:795:209: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]
+o  if(objectIndex >= count) { [NSException raise:NSRangeException                 format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",          NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count]; }
+o                                                                                                               ~~~                                                                                              ^~~~~~~~~~~
+o                                                                                                                                                                                                                (unsigned long)
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:795:222: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]
+o  if(objectIndex >= count) { [NSException raise:NSRangeException                 format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",          NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count]; }
+o                                                                                                                                   ~~~                                                                                       ^~~~~
+o                                                                                                                                                                                                                             (unsigned long)
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:680:12: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o    array->isa      = _JKArrayClass;
+o           ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:77:11: note: instance variable is declared here
+o    Class       isa;
+o                ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:929:17: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o    dictionary->isa      = _JKDictionaryClass;
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:77:11: note: instance variable is declared here
+o    Class       isa;
+o                ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2598:31: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o       if(JK_EXPECT_T(object->isa == encodeState->fastClassLookup.stringClass))     { isClass = JKClassString;     }
+o                              ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'
+o#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)
+o                                                    ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'
+o#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))
+o                                                                ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2599:31: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o  else if(JK_EXPECT_T(object->isa == encodeState->fastClassLookup.numberClass))     { isClass = JKClassNumber;     }
+o                              ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'
+o#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)
+o                                                    ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'
+o#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))
+o                                                                ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2600:31: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o  else if(JK_EXPECT_T(object->isa == encodeState->fastClassLookup.dictionaryClass)) { isClass = JKClassDictionary; }
+o                              ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'
+o#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)
+o                                                    ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'
+o#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))
+o                                                                ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2601:31: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o  else if(JK_EXPECT_T(object->isa == encodeState->fastClassLookup.arrayClass))      { isClass = JKClassArray;      }
+o                              ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'
+o#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)
+o                                                    ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'
+o#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))
+o                                                                ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2602:31: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o  else if(JK_EXPECT_T(object->isa == encodeState->fastClassLookup.nullClass))       { isClass = JKClassNull;       }
+o                              ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'
+o#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)
+o                                                    ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'
+o#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))
+o                                                                ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2605:171: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o         if(JK_EXPECT_T([object isKindOfClass:[NSString     class]])) { if(workAroundMacOSXABIBreakingBug == NO) { encodeState->fastClassLookup.stringClass     = object->isa; } isClass = JKClassString;     }
+o                                                                                                                                                                          ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2606:171: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o    else if(JK_EXPECT_T([object isKindOfClass:[NSNumber     class]])) { if(workAroundMacOSXABIBreakingBug == NO) { encodeState->fastClassLookup.numberClass     = object->isa; } isClass = JKClassNumber;     }
+o                                                                                                                                                                          ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2607:171: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o    else if(JK_EXPECT_T([object isKindOfClass:[NSDictionary class]])) { if(workAroundMacOSXABIBreakingBug == NO) { encodeState->fastClassLookup.dictionaryClass = object->isa; } isClass = JKClassDictionary; }
+o                                                                                                                                                                          ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2608:171: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o    else if(JK_EXPECT_T([object isKindOfClass:[NSArray      class]])) { if(workAroundMacOSXABIBreakingBug == NO) { encodeState->fastClassLookup.arrayClass      = object->isa; } isClass = JKClassArray;      }
+o                                                                                                                                                                          ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2609:171: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o    else if(JK_EXPECT_T([object isKindOfClass:[NSNull       class]])) { if(workAroundMacOSXABIBreakingBug == NO) { encodeState->fastClassLookup.nullClass       = object->isa; } isClass = JKClassNull;       }
+o                                                                                                                                                                          ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2791:40: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o            if(JK_EXPECT_F((keyObject->isa      != encodeState->fastClassLookup.stringClass)) && JK_EXPECT_F(([keyObject   isKindOfClass:[NSString class]] == NO))) { jk_encode_error(encodeState, @"Key must be a string object."); return(1); }
+o                                       ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:197:53: note: expanded from macro 'JK_EXPECT_F'
+o#define JK_EXPECT_F(cond)               JK_EXPECTED(cond, 0U)
+o                                                    ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'
+o#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))
+o                                                                ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2802:45: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]
+o            if(JK_EXPECT_F(((id)keys[idx])->isa != encodeState->fastClassLookup.stringClass) && JK_EXPECT_F([(id)keys[idx] isKindOfClass:[NSString class]] == NO)) { jk_encode_error(encodeState, @"Key must be a string object."); return(1); }
+o                                            ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:197:53: note: expanded from macro 'JK_EXPECT_F'
+o#define JK_EXPECT_F(cond)               JK_EXPECTED(cond, 0U)
+o                                                    ^
+o/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'
+o#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))
+o                                                                ^
+o24 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m14cca06c1700b841^077ad46d1700b841^-19579"/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:745:245: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]  if((objectsPtr     == NULL)  && (NSMaxRange(range) > 0UL))   { [NSException raise:NSRangeException format:@"*** -[%@ %@]: pointer to objects array is NULL but range length is %lu", NSStringFromClass([self class]), NSStringFromSelector(_cmd), NSMaxRange(range)];        }                                                                                                                                                                                 ~~~                                                                ^~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                    (unsigned long)/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:746:245: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]  if((range.location >  count) || (NSMaxRange(range) > count)) { [NSException raise:NSRangeException format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",                          NSStringFromClass([self class]), NSStringFromSelector(_cmd), NSMaxRange(range), count]; }                                                                                                                                   ~~~                                                                                                              ^~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                    (unsigned long)/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:746:264: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]  if((range.location >  count) || (NSMaxRange(range) > count)) { [NSException raise:NSRangeException format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",                          NSStringFromClass([self class]), NSStringFromSelector(_cmd), NSMaxRange(range), count]; }                                                                                                                                                       ~~~                                                                                                             ^~~~~                                                                                                                                                                                                                                                                       (unsigned long)/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:752:184: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]  if(objectIndex >= count) { [NSException raise:NSRangeException format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)", NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count]; }                                                                                               ~~~                                                                                     ^~~~~~~~~~~                                                                                                                                                                                       (unsigned long)/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:752:197: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]  if(objectIndex >= count) { [NSException raise:NSRangeException format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)", NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count]; }                                                                                                                   ~~~                                                                              ^~~~~                                                                                                                                                                                                    (unsigned long)/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:773:209: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]  if(objectIndex >  count) { [NSException raise:NSRangeException                 format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",          NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count + 1UL]; }                                                                                                               ~~~                                                                                              ^~~~~~~~~~~                                                                                                                                                                                                                (unsigned long)/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:786:209: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]  if(objectIndex >= count) { [NSException raise:NSRangeException                 format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",          NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count]; }                                                                                                               ~~~                                                                                              ^~~~~~~~~~~                                                                                                                                                                                                                (unsigned long)/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:786:222: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]  if(objectIndex >= count) { [NSException raise:NSRangeException                 format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",          NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count]; }                                                                                                                                   ~~~                                                                                       ^~~~~                                                                                                                                                                                                                             (unsigned long)/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:795:209: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]  if(objectIndex >= count) { [NSException raise:NSRangeException                 format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",          NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count]; }                                                                                                               ~~~                                                                                              ^~~~~~~~~~~                                                                                                                                                                                                                (unsigned long)/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:795:222: warning: values of type 'NSUInteger' should not be used as format arguments; add an explicit cast to 'unsigned long' instead [-Wformat]  if(objectIndex >= count) { [NSException raise:NSRangeException                 format:@"*** -[%@ %@]: index (%lu) beyond bounds (%lu)",          NSStringFromClass([self class]), NSStringFromSelector(_cmd), objectIndex, count]; }                                                                                                                                   ~~~                                                                                       ^~~~~                                                                                                                                                                                                                             (unsigned long)/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:680:12: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]    array->isa      = _JKArrayClass;           ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:77:11: note: instance variable is declared here    Class       isa;                ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:929:17: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]    dictionary->isa      = _JKDictionaryClass;                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:77:11: note: instance variable is declared here    Class       isa;                ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2598:31: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]       if(JK_EXPECT_T(object->isa == encodeState->fastClassLookup.stringClass))     { isClass = JKClassString;     }                              ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)                                                    ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))                                                                ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2599:31: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]  else if(JK_EXPECT_T(object->isa == encodeState->fastClassLookup.numberClass))     { isClass = JKClassNumber;     }                              ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)                                                    ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))                                                                ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2600:31: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]  else if(JK_EXPECT_T(object->isa == encodeState->fastClassLookup.dictionaryClass)) { isClass = JKClassDictionary; }                              ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)                                                    ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))                                                                ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2601:31: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]  else if(JK_EXPECT_T(object->isa == encodeState->fastClassLookup.arrayClass))      { isClass = JKClassArray;      }                              ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)                                                    ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))                                                                ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2602:31: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]  else if(JK_EXPECT_T(object->isa == encodeState->fastClassLookup.nullClass))       { isClass = JKClassNull;       }                              ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)                                                    ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))                                                                ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2605:171: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]         if(JK_EXPECT_T([object isKindOfClass:[NSString     class]])) { if(workAroundMacOSXABIBreakingBug == NO) { encodeState->fastClassLookup.stringClass     = object->isa; } isClass = JKClassString;     }                                                                                                                                                                          ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2606:171: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]    else if(JK_EXPECT_T([object isKindOfClass:[NSNumber     class]])) { if(workAroundMacOSXABIBreakingBug == NO) { encodeState->fastClassLookup.numberClass     = object->isa; } isClass = JKClassNumber;     }                                                                                                                                                                          ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2607:171: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]    else if(JK_EXPECT_T([object isKindOfClass:[NSDictionary class]])) { if(workAroundMacOSXABIBreakingBug == NO) { encodeState->fastClassLookup.dictionaryClass = object->isa; } isClass = JKClassDictionary; }                                                                                                                                                                          ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2608:171: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]    else if(JK_EXPECT_T([object isKindOfClass:[NSArray      class]])) { if(workAroundMacOSXABIBreakingBug == NO) { encodeState->fastClassLookup.arrayClass      = object->isa; } isClass = JKClassArray;      }                                                                                                                                                                          ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2609:171: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]    else if(JK_EXPECT_T([object isKindOfClass:[NSNull       class]])) { if(workAroundMacOSXABIBreakingBug == NO) { encodeState->fastClassLookup.nullClass       = object->isa; } isClass = JKClassNull;       }                                                                                                                                                                          ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2791:40: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]            if(JK_EXPECT_F((keyObject->isa      != encodeState->fastClassLookup.stringClass)) && JK_EXPECT_F(([keyObject   isKindOfClass:[NSString class]] == NO))) { jk_encode_error(encodeState, @"Key must be a string object."); return(1); }                                       ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:197:53: note: expanded from macro 'JK_EXPECT_F'#define JK_EXPECT_F(cond)               JK_EXPECTED(cond, 0U)                                                    ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))                                                                ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:2802:45: warning: direct access to objective-c's isa is deprecated in favor of object_setClass() and object_getClass() [-Wdeprecated-objc-isa-usage]            if(JK_EXPECT_F(((id)keys[idx])->isa != encodeState->fastClassLookup.stringClass) && JK_EXPECT_F([(id)keys[idx] isKindOfClass:[NSString class]] == NO)) { jk_encode_error(encodeState, @"Key must be a string object."); return(1); }                                            ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:197:53: note: expanded from macro 'JK_EXPECT_F'#define JK_EXPECT_F(cond)               JK_EXPECTED(cond, 0U)                                                    ^/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))                                                                ^24 warnings generated.-0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m0000000000000000^3844"CompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.o JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-fpxskfxmdxgaouaqfaewpnucytlz/Pods-prefix.pch -MMD -MT dependencies -MF /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.d --serialize-diagnostics /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/JSONKit/JSONKit.m -o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.o36"6942AEB9-E030-4381-A01C-8CAC35F237F2-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/NSData+GIF.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/NSData+GIF.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659180.627530
+e402659180.791415
+r1
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+x/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-dummy.m03cca06c1700b841^eca0ca6c1700b841^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-dummy.m0000000000000000^3846"CompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-fpxskfxmdxgaouaqfaewpnucytlz/Pods-prefix.pch -MMD -MT dependencies -MF /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.d --serialize-diagnostics /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-dummy.m -o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o36"FBA27F58-023C-4348-B2CE-5F5605DBEC99-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDImageCache.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDImageCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDWebImageCompat.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDWebImageDecoder.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDWebImageDownloader.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDWebImageDownloaderOperation.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDWebImageManager.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDWebImageManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SDWebImagePrefetcher.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/SVProgressHUD.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIActivityIndicatorView+AFNetworking.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIAlertView+AFNetworking.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIButton+AFNetworking.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIButton+WebCache.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIImage+GIF.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/UIImage+GIF.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIImage+MultiFormat.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIImageView+AFNetworking.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIImageView+WebCache.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIProgressView+AFNetworking.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIScrollView+SVInfiniteScrolling.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SVPullToRefresh/SVPullToRefresh/UIScrollView+SVInfiniteScrolling.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIScrollView+SVPullToRefresh.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/SVPullToRefresh/SVPullToRefresh/UIScrollView+SVPullToRefresh.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/UIWebView+AFNetworking.o /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/libPods.a normal i386
+r0
+
+CProcessPCH /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-fpxskfxmdxgaouaqfaewpnucytlz/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659180.131098
+e402659180.620423
+r1
+xProcessPCH
+x/var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-fpxskfxmdxgaouaqfaewpnucytlz/Pods-prefix.pch.pth
+xPods-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Pods-prefix.pch06d6216c1700b841^a6d39e6c1700b841^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-prefix.pch0000000000000000^3827"ProcessPCH /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-fpxskfxmdxgaouaqfaewpnucytlz/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-fpxskfxmdxgaouaqfaewpnucytlz/Pods-prefix.pch.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-prefix.pch -o /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-fpxskfxmdxgaouaqfaewpnucytlz/Pods-prefix.pch.pth -MMD -MT dependencies -MF /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-fpxskfxmdxgaouaqfaewpnucytlz/Pods-prefix.pch.d36"CD5402D0-995E-4805-80ED-0238BAB6A1B1-
+
+CProcessPCH /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-glyzqrjuotdhxdftzawrwpbaevei/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659180.130927
+e402659180.791247
+r1
+xProcessPCH
+x/var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-glyzqrjuotdhxdftzawrwpbaevei/Pods-prefix.pch.pth
+xPods-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Pods-prefix.pch28d6216c1700b841^d68eca6c1700b841^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-prefix.pch0000000000000000^3861"ProcessPCH /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-glyzqrjuotdhxdftzawrwpbaevei/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-glyzqrjuotdhxdftzawrwpbaevei/Pods-prefix.pch.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-prefix.pch -o /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-glyzqrjuotdhxdftzawrwpbaevei/Pods-prefix.pch.pth -MMD -MT dependencies -MF /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-glyzqrjuotdhxdftzawrwpbaevei/Pods-prefix.pch.d36"AB412BEB-86E8-4FE1-8305-85F74B300559-
+
+CProcessPCH /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402659180.130911
+e402659180.671072
+r1
+xProcessPCH
+x/var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch.pth
+xPods-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Pods-prefix.pch06d6216c1700b841^6cccab6c1700b841^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-prefix.pch0000000000000000^3838"ProcessPCH /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/zdance/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/zdance/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zdance/android-sdks/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build/include -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/AFNetworking -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/JSONKit -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SDWebImage -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVProgressHUD -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/BuildHeaders/SVPullToRefresh -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc --serialize-diagnostics /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch.dia -c /Users/zdance/Desktop/DiggApp/quanapp/vendor/Pods/Pods-prefix.pch -o /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch.pth -MMD -MT dependencies -MF /var/folders/7j/jpwbbyc14yddbjq4krbzj37w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pods-prefix-gowntkrenbpqfvgjnrayueibcrbd/Pods-prefix.pch.d36"848642E3-8692-4B9C-BBE3-C9D8CE58CB72-
+

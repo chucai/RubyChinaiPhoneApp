@@ -1,0 +1,3481 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_APP_DESC'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_APP_ICON'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_APP_INVITED_OPENIDS'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_DATA'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_MESSAGE'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_RETCODE'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_SENDSTORY_ACT'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_SENDSTORY_COMMENT'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_SENDSTORY_IMAGE'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_SENDSTORY_RECEIVER'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_SENDSTORY_SUMMARY'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_SENDSTORY_TITLE'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_SENDSTORY_URL'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_SETUSERHEAD_FILENAME'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_SETUSERHEAD_PIC'/>
+<constant type='@' declared_type='NSString*' const='true' name='PARAM_USER_DATA'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorKeyExtraInfo'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorKeyMsg'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorKeyRetCode'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgDataParse'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgIO'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgNetwork'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgOperationDeny'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgParam'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgReLogin'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgSecurity'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgServer'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgSuccess'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgTimeout'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgURL'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgUnknown'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgUnsupportedAPI'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgUserCancel'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgUserHeadPicLarge'/>
+<constant type='@' declared_type='NSString*' const='true' name='TCOpenSDKErrorMsgWebPage'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMSCustomAccountGenderFeMale'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMSCustomAccountGenderMale'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMShareToDouban'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMShareToEmail'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMShareToFacebook'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMShareToQQ'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMShareToQzone'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMShareToRenren'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMShareToSina'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMShareToSms'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMShareToTencent'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMShareToTwitter'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMShareToWechatSession'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMShareToWechatTimeline'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMSocialAccount'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMSocialComment'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMSocialLike'/>
+<constant type='@' declared_type='NSString*' const='true' name='UMSocialShare'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_ADD_ALBUM'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_ADD_IDOL'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_ADD_ONE_BLOG'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_ADD_PIC_T'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_ADD_SHARE'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_ADD_TOPIC'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_CHECK_PAGE_FANS'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_DEL_IDOL'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_DEL_T'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_GET_FANSLIST'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_GET_IDOLLIST'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_GET_INFO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_GET_INTIMATE_FRIENDS_WEIBO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_GET_OTHER_INFO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_GET_REPOST_LIST'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_GET_SIMPLE_USER_INFO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_GET_USER_INFO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_GET_VIP_INFO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_GET_VIP_RICH_INFO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_LIST_ALBUM'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_MATCH_NICK_TIPS_WEIBO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_UPLOAD_PIC'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_CHECK_RECORD'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_CREATE_RECORD'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_DELETE_MUSIC'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_DELETE_PHOTO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_DELETE_PIC'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_DELETE_RECORD'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_DELETE_VIDEO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_DOWNLOAD_MUSIC'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_DOWNLOAD_PHOTO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_DOWNLOAD_PIC'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_DOWNLOAD_VIDEO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_GET_MUSIC_LIST'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_GET_PHOTO_LIST'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_GET_PHOTO_THUMB'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_GET_PIC_LIST'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_GET_PIC_THUMB'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_GET_RECORD'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_GET_VIDEO_LIST'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_MODIFY_RECORD'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_QUERY_ALL_RECORD'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_UPLOAD_MUSIC'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_UPLOAD_PHOTO'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_UPLOAD_PIC'/>
+<constant type='@' declared_type='NSString*' const='true' name='kOPEN_PERMISSION_WEIYUN_UPLOAD_VIDEO'/>
+<enum value='0' name='AllImage'/>
+<enum value='0' name='AllVideo'/>
+<enum value='2' name='DataImage'/>
+<enum value='0' name='EGETMESSAGEFROMQQREQTYPE'/>
+<enum value='1' name='EGETMESSAGEFROMQQRESPTYPE'/>
+<enum value='6' name='EQQAPIAPPNOTREGISTED'/>
+<enum value='7' name='EQQAPIAPPSHAREASYNC'/>
+<enum value='5' name='EQQAPIMESSAGECONTENTINVALID'/>
+<enum value='4' name='EQQAPIMESSAGECONTENTNULL'/>
+<enum value='3' name='EQQAPIMESSAGETYPEINVALID'/>
+<enum value='1' name='EQQAPIQQNOTINSTALLED'/>
+<enum value='2' name='EQQAPIQQNOTSUPPORTAPI'/>
+<enum value='-1' name='EQQAPISENDFAILD'/>
+<enum value='0' name='EQQAPISENDSUCESS'/>
+<enum value='1' name='ESENDMESSAGETOQQREQTYPE'/>
+<enum value='2' name='ESENDMESSAGETOQQRESPTYPE'/>
+<enum value='2' name='ESHOWMESSAGEFROMQQREQTYPE'/>
+<enum value='0' name='ESHOWMESSAGEFROMQQRESPTYPE'/>
+<enum value='1' name='LocalVideo'/>
+<enum value='2' name='NetVideo'/>
+<enum value='3' name='QQApiMessageTypeGetMessageFromQQRequest'/>
+<enum value='4' name='QQApiMessageTypeGetMessageFromQQResponse'/>
+<enum value='240' name='QQApiMessageTypeReserved'/>
+<enum value='5' name='QQApiMessageTypeSendMessageToQQRequest'/>
+<enum value='6' name='QQApiMessageTypeSendMessageToQQResponse'/>
+<enum value='1' name='QQApiMessageTypeShowMessageFromQQRequest'/>
+<enum value='2' name='QQApiMessageTypeShowMessageFromQQResponse'/>
+<enum value='1' name='QQApiURLTargetTypeAudio'/>
+<enum value='3' name='QQApiURLTargetTypeNews'/>
+<enum value='0' name='QQApiURLTargetTypeNotSpecified'/>
+<enum value='2' name='QQApiURLTargetTypeVideo'/>
+<enum value='0' name='ReqFromTencentAppQueryContent'/>
+<enum value='1' name='ReqFromTencentAppShowContent'/>
+<enum value='2' name='ReqFromThirdAppQueryContent'/>
+<enum value='3' name='ReqFromThirdAppShowContent'/>
+<enum value='0' name='RespFromTencentAppQueryContent'/>
+<enum value='1' name='RespFromTencentAppShowContent'/>
+<enum value='2' name='RespFromThirdAppQueryContent'/>
+<enum value='3' name='RespFromThirdAppShowContent'/>
+<enum value='2' name='TencentAudioObj'/>
+<enum value='4' name='TencentImageAndVideoObj'/>
+<enum value='1' name='TencentImageObj'/>
+<enum value='0' name='TencentTextObj'/>
+<enum value='3' name='TencentVideoObj'/>
+<enum value='2' name='UMSNumberComment'/>
+<enum value='0' name='UMSNumberLike'/>
+<enum value='1' name='UMSNumberShare'/>
+<enum value='0' name='UMSResponseAddComment'/>
+<enum value='14' name='UMSResponseAddCustomAccount'/>
+<enum value='13' name='UMSResponseAddFollow'/>
+<enum value='1' name='UMSResponseAddLike'/>
+<enum value='15' name='UMSResponseAddSnsAccount'/>
+<enum value='17' name='UMSResponseAnalytics'/>
+<enum value='6' name='UMSResponseBinding'/>
+<enum value='5027' name='UMSResponseCodeAccessTokenExpired'/>
+<enum value='505' name='UMSResponseCodeBaned'/>
+<enum value='5052' name='UMSResponseCodeCancel'/>
+<enum value='5007' name='UMSResponseCodeEmptyContent'/>
+<enum value='510' name='UMSResponseCodeFaild'/>
+<enum value='5020' name='UMSResponseCodeGetNoUidFromOauth'/>
+<enum value='5051' name='UMSResponseCodeGetProfileFailed'/>
+<enum value='5050' name='UMSResponseCodeNetworkError'/>
+<enum value='100031' name='UMSResponseCodeNoApiAuthority'/>
+<enum value='5016' name='UMSResponseCodeShareRepeated'/>
+<enum value='200' name='UMSResponseCodeSuccess'/>
+<enum value='10' name='UMSResponseGetAccount'/>
+<enum value='16' name='UMSResponseGetAppInfo'/>
+<enum value='2' name='UMSResponseGetCommentList'/>
+<enum value='12' name='UMSResponseGetFriends'/>
+<enum value='11' name='UMSResponseGetSnsInfo'/>
+<enum value='3' name='UMSResponseGetSocialData'/>
+<enum value='9' name='UMSResponseOauth'/>
+<enum value='5' name='UMSResponseShareToMutilSNS'/>
+<enum value='4' name='UMSResponseShareToSNS'/>
+<enum value='7' name='UMSResponseUnBinding'/>
+<enum value='8' name='UMSResponseUnOauth'/>
+<enum value='4' name='UMSViewControllerAccount'/>
+<enum value='10' name='UMSViewControllerActionSheet'/>
+<enum value='1' name='UMSViewControllerCommentEdit'/>
+<enum value='0' name='UMSViewControllerCommentList'/>
+<enum value='9' name='UMSViewControllerFriendList'/>
+<enum value='8' name='UMSViewControllerLogin'/>
+<enum value='6' name='UMSViewControllerLoginAccount'/>
+<enum value='7' name='UMSViewControllerOauth'/>
+<enum value='3' name='UMSViewControllerShareEdit'/>
+<enum value='2' name='UMSViewControllerShareList'/>
+<enum value='5' name='UMSViewControllerSnsAccount'/>
+<enum value='14' name='UMSocialSnsTypeDouban'/>
+<enum value='15' name='UMSocialSnsTypeEmail'/>
+<enum value='20' name='UMSocialSnsTypeFacebook'/>
+<enum value='19' name='UMSocialSnsTypeMobileQQ'/>
+<enum value='0' name='UMSocialSnsTypeNone'/>
+<enum value='10' name='UMSocialSnsTypeQzone'/>
+<enum value='13' name='UMSocialSnsTypeRenr'/>
+<enum value='11' name='UMSocialSnsTypeSina'/>
+<enum value='16' name='UMSocialSnsTypeSms'/>
+<enum value='12' name='UMSocialSnsTypeTenc'/>
+<enum value='21' name='UMSocialSnsTypeTwitter'/>
+<enum value='17' name='UMSocialSnsTypeWechatSession'/>
+<enum value='18' name='UMSocialSnsTypeWechatTimeline'/>
+<enum value='0' name='UMSocialThemeBlack'/>
+<enum value='1' name='UMSocialThemeWhite'/>
+<enum value='0' name='UMSocialUrlResourceTypeImage'/>
+<enum value='2' name='UMSocialUrlResourceTypeMusic'/>
+<enum value='1' name='UMSocialUrlResourceTypeVideo'/>
+<enum value='2' name='UMSocialWXMessageTypeApp'/>
+<enum value='1' name='UMSocialWXMessageTypeImage'/>
+<enum value='3' name='UMSocialWXMessageTypeOther'/>
+<enum value='0' name='UMSocialWXMessageTypeText'/>
+<enum value='1000002' name='UMSocialiToastPositionBottom'/>
+<enum value='1000003' name='UMSocialiToastPositionCenter'/>
+<enum value='1000001' name='UMSocialiToastPositionTop'/>
+<enum value='1' name='URLREQUEST_FAILED'/>
+<enum value='0' name='URLREQUEST_SUCCEED'/>
+<enum value='1' name='UrlImage'/>
+<enum value='-4' name='WXErrCodeAuthDeny'/>
+<enum value='-1' name='WXErrCodeCommon'/>
+<enum value='-3' name='WXErrCodeSentFail'/>
+<enum value='-5' name='WXErrCodeUnsupport'/>
+<enum value='-2' name='WXErrCodeUserCancel'/>
+<enum value='2' name='WXSceneFavorite'/>
+<enum value='0' name='WXSceneSession'/>
+<enum value='1' name='WXSceneTimeline'/>
+<enum value='0' name='WXSuccess'/>
+<enum value='10485760' name='kDataLimit'/>
+<enum value='0' name='kIphoneQQ'/>
+<enum value='1' name='kIphoneQZONE'/>
+<enum value='9' name='kOpenSDKErrorConnTimeout'/>
+<enum value='7' name='kOpenSDKErrorDataParse'/>
+<enum value='11' name='kOpenSDKErrorIO'/>
+<enum value='5' name='kOpenSDKErrorNetwork'/>
+<enum value='4' name='kOpenSDKErrorOperationDeny'/>
+<enum value='8' name='kOpenSDKErrorParam'/>
+<enum value='3' name='kOpenSDKErrorReLogin'/>
+<enum value='10' name='kOpenSDKErrorSecurity'/>
+<enum value='12' name='kOpenSDKErrorServer'/>
+<enum value='0' name='kOpenSDKErrorSuccess'/>
+<enum value='6' name='kOpenSDKErrorURL'/>
+<enum value='1' name='kOpenSDKErrorUnknown'/>
+<enum value='-2' name='kOpenSDKErrorUnsupportedAPI'/>
+<enum value='2' name='kOpenSDKErrorUserCancel'/>
+<enum value='65536' name='kOpenSDKErrorUserHeadPicLarge'/>
+<enum value='13' name='kOpenSDKErrorWebPage'/>
+<enum value='-1' name='kOpenSDKInvalid'/>
+<enum value='1048576' name='kPreviewDataLimit'/>
+<enum value='1013' name='kTagSocialIconActionSheet'/>
+<enum value='4' name='kTencentApiFail'/>
+<enum value='3' name='kTencentApiParamsError'/>
+<enum value='2' name='kTencentApiPlatformNotSupport'/>
+<enum value='1' name='kTencentApiPlatformUninstall'/>
+<enum value='0' name='kTencentApiSuccess'/>
+<enum value='1048576' name='kTextLimit'/>
+<enum value='2' name='kThirdApp'/>
+<enum value='3' name='kUpdateFailNetwork'/>
+<enum value='1' name='kUpdateFailUnknown'/>
+<enum value='2' name='kUpdateFailUserCancel'/>
+<class name='APIResponse'>
+<method selector='detailRetCode'>
+<retval type='i' declared_type='int'/>
+</method>
+<method selector='errorMsg'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='jsonResponse'>
+<retval type='@' declared_type='NSDictionary*'/>
+</method>
+<method selector='message'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='retCode'>
+<retval type='i' declared_type='int'/>
+</method>
+<method selector='seq'>
+<retval type='i' declared_type='int'/>
+</method>
+<method selector='setDetailRetCode:'>
+<arg index='0' type='i' declared_type='int' name='detailRetCode'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setErrorMsg:'>
+<arg index='0' type='@' declared_type='NSString*' name='errorMsg'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setJsonResponse:'>
+<arg index='0' type='@' declared_type='NSDictionary*' name='jsonResponse'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setMessage:'>
+<arg index='0' type='@' declared_type='NSString*' name='message'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setRetCode:'>
+<arg index='0' type='i' declared_type='int' name='retCode'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSeq:'>
+<arg index='0' type='i' declared_type='int' name='seq'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setUserData:'>
+<arg index='0' type='@' declared_type='id' name='userData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='userData'>
+<retval type='@' declared_type='id'/>
+</method>
+</class>
+<class name='BaseReq'>
+<method selector='setType:'>
+<arg index='0' type='i' declared_type='int' name='type'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='type'>
+<retval type='i' declared_type='int'/>
+</method>
+</class>
+<class name='BaseResp'>
+<method selector='errCode'>
+<retval type='i' declared_type='int'/>
+</method>
+<method selector='errStr'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setErrCode:'>
+<arg index='0' type='i' declared_type='int' name='errCode'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setErrStr:'>
+<arg index='0' type='@' declared_type='NSString*' name='errStr'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setType:'>
+<arg index='0' type='i' declared_type='int' name='type'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='type'>
+<retval type='i' declared_type='int'/>
+</method>
+</class>
+<class name='GetMessageFromQQReq'>
+<method selector='req' class_method='true'>
+<retval type='@' declared_type='GetMessageFromQQReq*'/>
+</method>
+</class>
+<class name='GetMessageFromQQResp'>
+<method selector='message'>
+<retval type='@' declared_type='QQApiObject*'/>
+</method>
+<method selector='respWithContent:' class_method='true'>
+<arg index='0' type='@' declared_type='QQApiObject*' name='message'/>
+<retval type='@' declared_type='GetMessageFromQQResp*'/>
+</method>
+<method selector='setMessage:'>
+<arg index='0' type='@' declared_type='QQApiObject*' name='message'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='GetMessageFromWXResp'>
+<method selector='bText'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='message'>
+<retval type='@' declared_type='WXMediaMessage*'/>
+</method>
+<method selector='setBText:'>
+<arg index='0' type='B' declared_type='BOOL' name='bText'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setMessage:'>
+<arg index='0' type='@' declared_type='WXMediaMessage*' name='message'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setText:'>
+<arg index='0' type='@' declared_type='NSString*' name='text'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='text'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+</class>
+<class name='NSObject'>
+<method selector='addAlbumResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='addOneBlogResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='addShareResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='addTopicResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='cgiDownloadRequest:shouldBeginDownloadingStorageRequest:'>
+<arg index='0' type='@' declared_type='TCAPIRequest*' name='downloadRequest'/>
+<arg index='1' type='@' declared_type='NSURLRequest*' name='storageRequest'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='cgiRequest:didResponse:'>
+<arg index='0' type='@' declared_type='TCAPIRequest*' name='request'/>
+<arg index='1' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='cgiRequest:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite:'>
+<arg index='0' type='@' declared_type='TCAPIRequest*' name='request'/>
+<arg index='1' type='q' declared_type='long long' name='bytesWritten'/>
+<arg index='2' type='q' declared_type='long long' name='totalBytesWritten'/>
+<arg index='3' type='q' declared_type='long long' name='totalBytesExpectedToWrite'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='cgiRequest:didWriteData:totalBytesWritten:expectedTotalBytes:'>
+<arg index='0' type='@' declared_type='TCAPIRequest*' name='request'/>
+<arg index='1' type='q' declared_type='long long' name='bytesWritten'/>
+<arg index='2' type='q' declared_type='long long' name='totalBytesWritten'/>
+<arg index='3' type='q' declared_type='long long' name='expectedTotalBytes'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='cgiUploadRequest:shouldBeginUploadingStorageRequest:'>
+<arg index='0' type='@' declared_type='TCAPIRequest*' name='uploadRequest'/>
+<arg index='1' type='@' declared_type='NSURLRequest*' name='storageRequest'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='checkPageFansResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='closeOauthWebViewController:socialControllerService:'>
+<arg index='0' type='@' declared_type='UINavigationController*' name='navigationCtroller'/>
+<arg index='1' type='@' declared_type='UMSocialControllerService*' name='socialControllerService'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='didCloseUIViewController:'>
+<arg index='0' type='i' declared_type='UMSViewControllerType' name='fromViewControllerType'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='didFinishGetUMSocialDataInViewController:'>
+<arg index='0' type='@' declared_type='UMSocialResponseEntity*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='didFinishGetUMSocialDataResponse:'>
+<arg index='0' type='@' declared_type='UMSocialResponseEntity*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='didSelectSocialPlatform:withSocialData:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformName'/>
+<arg index='1' type='@' declared_type='UMSocialData*' name='socialData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='getAuthorizedPermissions:withExtraParams:'>
+<arg index='0' type='@' declared_type='NSArray*' name='permissions'/>
+<arg index='1' type='@' declared_type='NSDictionary*' name='extraParams'/>
+<retval type='@' declared_type='NSArray*'/>
+</method>
+<method selector='getIntimateFriendsResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='getListAlbumResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='getListPhotoResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='getUserInfoResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='getVipInfoResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='getVipRichInfoResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='matchNickTipsResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='onReq:'>
+<arg index='0' type='@' declared_type='BaseReq*' name='req'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='onResp:'>
+<arg index='0' type='@' declared_type='BaseResp*' name='resp'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='onTencentReq:'>
+<arg index='0' type='@' declared_type='TencentApiReq*' name='req'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='onTencentResp:'>
+<arg index='0' type='@' declared_type='TencentApiResp*' name='resp'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='sendStoryResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setUserHeadpicResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='tencentDidLogin'>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='tencentDidLogout'>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='tencentDidNotLogin:'>
+<arg index='0' type='B' declared_type='BOOL' name='cancelled'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='tencentDidNotNetWork'>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='tencentDidUpdate:'>
+<arg index='0' type='@' declared_type='TencentOAuth*' name='tencentOAuth'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='tencentFailedUpdate:'>
+<arg index='0' type='i' declared_type='UpdateFailType' name='reason'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='tencentNeedPerformIncrAuth:withPermissions:'>
+<arg index='0' type='@' declared_type='TencentOAuth*' name='tencentOAuth'/>
+<arg index='1' type='@' declared_type='NSArray*' name='permissions'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='tencentNeedPerformReAuth:'>
+<arg index='0' type='@' declared_type='TencentOAuth*' name='tencentOAuth'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='tencentOAuth:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite:userData:'>
+<arg index='0' type='@' declared_type='TencentOAuth*' name='tencentOAuth'/>
+<arg index='1' type='i' declared_type='NSInteger' name='bytesWritten'/>
+<arg index='2' type='i' declared_type='NSInteger' name='totalBytesWritten'/>
+<arg index='3' type='i' declared_type='NSInteger' name='totalBytesExpectedToWrite'/>
+<arg index='4' type='@' declared_type='id' name='userData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='tencentOAuth:doCloseViewController:'>
+<arg index='0' type='@' declared_type='TencentOAuth*' name='tencentOAuth'/>
+<arg index='1' type='@' declared_type='UIViewController*' name='viewController'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='uploadPicResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='willCloseUIViewController:'>
+<arg index='0' type='i' declared_type='UMSViewControllerType' name='fromViewControllerType'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='QQApi'>
+<method selector='getAdItemArray' class_method='true'>
+<retval type='@' declared_type='NSArray*'/>
+</method>
+<method selector='getQQInstallURL' class_method='true'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='handleOpenURL:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<retval type='@' declared_type='QQApiMessage*'/>
+</method>
+<method selector='handleOpenURL:sourceApplication:annotation:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='NSString*' name='source'/>
+<arg index='2' type='@' declared_type='id' name='annotation'/>
+<retval type='@' declared_type='QQApiMessage*'/>
+</method>
+<method selector='isQQInstalled' class_method='true'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='isQQSupportApi' class_method='true'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='openQQApp' class_method='true'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='sendMessage:' class_method='true'>
+<arg index='0' type='@' declared_type='QQApiMessage*' name='message'/>
+<retval type='i' declared_type='int'/>
+</method>
+</class>
+<class name='QQApiAdItem'>
+<method selector='description'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='imageData'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='setDescription:'>
+<arg index='0' type='@' declared_type='NSString*' name='description'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setImageData:'>
+<arg index='0' type='@' declared_type='NSData*' name='imageData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setTarget:'>
+<arg index='0' type='@' declared_type='NSURL*' name='target'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setTitle:'>
+<arg index='0' type='@' declared_type='NSString*' name='title'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='target'>
+<retval type='@' declared_type='NSURL*'/>
+</method>
+<method selector='title'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+</class>
+<class name='QQApiAudioObject'>
+<method selector='objectWithURL:title:description:previewImageData:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='NSString*' name='title'/>
+<arg index='2' type='@' declared_type='NSString*' name='description'/>
+<arg index='3' type='@' declared_type='NSData*' name='data'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='objectWithURL:title:description:previewImageURL:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='NSString*' name='title'/>
+<arg index='2' type='@' declared_type='NSString*' name='description'/>
+<arg index='3' type='@' declared_type='NSURL*' name='previewURL'/>
+<retval type='@' declared_type='id'/>
+</method>
+</class>
+<class name='QQApiCommonContentObject'>
+<method selector='layoutType'>
+<retval type='I' declared_type='unsigned int'/>
+</method>
+<method selector='objectWithDictionary:' class_method='true'>
+<arg index='0' type='@' declared_type='NSDictionary*' name='dic'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='objectWithLayoutType:textArray:pictureArray:previewImageData:' class_method='true'>
+<arg index='0' type='i' declared_type='int' name='layoutType'/>
+<arg index='1' type='@' declared_type='NSArray*' name='textArray'/>
+<arg index='2' type='@' declared_type='NSArray*' name='pictureArray'/>
+<arg index='3' type='@' declared_type='NSData*' name='data'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='pictureDataArray'>
+<retval type='@' declared_type='NSArray*'/>
+</method>
+<method selector='previewImageData'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='setLayoutType:'>
+<arg index='0' type='I' declared_type='unsigned int' name='layoutType'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setPictureDataArray:'>
+<arg index='0' type='@' declared_type='NSArray*' name='pictureDataArray'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setPreviewImageData:'>
+<arg index='0' type='@' declared_type='NSData*' name='previewImageData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setTextArray:'>
+<arg index='0' type='@' declared_type='NSArray*' name='textArray'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='textArray'>
+<retval type='@' declared_type='NSArray*'/>
+</method>
+<method selector='toDictionary'>
+<retval type='@' declared_type='NSDictionary*'/>
+</method>
+</class>
+<class name='QQApiExtendObject'>
+<method selector='data'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='initWithData:previewImageData:title:description:'>
+<arg index='0' type='@' declared_type='NSData*' name='data'/>
+<arg index='1' type='@' declared_type='NSData*' name='previewImageData'/>
+<arg index='2' type='@' declared_type='NSString*' name='title'/>
+<arg index='3' type='@' declared_type='NSString*' name='description'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='objectWithData:previewImageData:title:description:' class_method='true'>
+<arg index='0' type='@' declared_type='NSData*' name='data'/>
+<arg index='1' type='@' declared_type='NSData*' name='previewImageData'/>
+<arg index='2' type='@' declared_type='NSString*' name='title'/>
+<arg index='3' type='@' declared_type='NSString*' name='description'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='previewImageData'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='setData:'>
+<arg index='0' type='@' declared_type='NSData*' name='data'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setPreviewImageData:'>
+<arg index='0' type='@' declared_type='NSData*' name='previewImageData'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='QQApiInterface'>
+<method selector='getQQInstallUrl' class_method='true'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='handleOpenURL:delegate:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='id' name='delegate'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='isQQInstalled' class_method='true'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='isQQSupportApi' class_method='true'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='openQQ' class_method='true'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='sendReq:' class_method='true'>
+<arg index='0' type='@' declared_type='QQBaseReq*' name='req'/>
+<retval type='i' declared_type='QQApiSendResultCode'/>
+</method>
+<method selector='sendResp:' class_method='true'>
+<arg index='0' type='@' declared_type='QQBaseResp*' name='resp'/>
+<retval type='i' declared_type='QQApiSendResultCode'/>
+</method>
+</class>
+<class name='QQApiMessage'>
+<method selector='initWithObject:andType:'>
+<arg index='0' type='@' declared_type='QQApiObject*' name='obj'/>
+<arg index='1' type='I' declared_type='QQApiMessageType' name='type'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='messageWithObject:' class_method='true'>
+<arg index='0' type='@' declared_type='QQApiObject*' name='obj'/>
+<retval type='@' declared_type='QQApiMessage*'/>
+</method>
+<method selector='messageWithObject:andType:' class_method='true'>
+<arg index='0' type='@' declared_type='QQApiObject*' name='obj'/>
+<arg index='1' type='I' declared_type='QQApiMessageType' name='type'/>
+<retval type='@' declared_type='QQApiMessage*'/>
+</method>
+<method selector='object'>
+<retval type='@' declared_type='QQApiObject*'/>
+</method>
+<method selector='setObject:'>
+<arg index='0' type='@' declared_type='QQApiObject*' name='object'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setType:'>
+<arg index='0' type='I' declared_type='QQApiMessageType' name='type'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='type'>
+<retval type='I' declared_type='QQApiMessageType'/>
+</method>
+</class>
+<class name='QQApiNewsObject'>
+<method selector='objectWithURL:title:description:previewImageData:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='NSString*' name='title'/>
+<arg index='2' type='@' declared_type='NSString*' name='description'/>
+<arg index='3' type='@' declared_type='NSData*' name='data'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='objectWithURL:title:description:previewImageURL:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='NSString*' name='title'/>
+<arg index='2' type='@' declared_type='NSString*' name='description'/>
+<arg index='3' type='@' declared_type='NSURL*' name='previewURL'/>
+<retval type='@' declared_type='id'/>
+</method>
+</class>
+<class name='QQApiObject'>
+<method selector='description'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setDescription:'>
+<arg index='0' type='@' declared_type='NSString*' name='description'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setTitle:'>
+<arg index='0' type='@' declared_type='NSString*' name='title'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='title'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+</class>
+<class name='QQApiPayObject'>
+<method selector='OrderNo'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='initWithOrderNo:'>
+<arg index='0' type='@' declared_type='NSString*' name='OrderNo'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='objectWithOrderNo:' class_method='true'>
+<arg index='0' type='@' declared_type='NSString*' name='OrderNo'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='setOrderNo:'>
+<arg index='0' type='@' declared_type='NSString*' name='OrderNo'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='QQApiResultObject'>
+<method selector='error'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='errorDescription'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='extendInfo'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setError:'>
+<arg index='0' type='@' declared_type='NSString*' name='error'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setErrorDescription:'>
+<arg index='0' type='@' declared_type='NSString*' name='errorDescription'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setExtendInfo:'>
+<arg index='0' type='@' declared_type='NSString*' name='extendInfo'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='QQApiTextObject'>
+<method selector='initWithText:'>
+<arg index='0' type='@' declared_type='NSString*' name='text'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='objectWithText:' class_method='true'>
+<arg index='0' type='@' declared_type='NSString*' name='text'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='setText:'>
+<arg index='0' type='@' declared_type='NSString*' name='text'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='text'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+</class>
+<class name='QQApiURLObject'>
+<method selector='initWithURL:title:description:previewImageData:targetContentType:'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='NSString*' name='title'/>
+<arg index='2' type='@' declared_type='NSString*' name='description'/>
+<arg index='3' type='@' declared_type='NSData*' name='data'/>
+<arg index='4' type='i' declared_type='QQApiURLTargetType' name='targetContentType'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='initWithURL:title:description:previewImageURL:targetContentType:'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='NSString*' name='title'/>
+<arg index='2' type='@' declared_type='NSString*' name='description'/>
+<arg index='3' type='@' declared_type='NSURL*' name='previewURL'/>
+<arg index='4' type='i' declared_type='QQApiURLTargetType' name='targetContentType'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='objectWithURL:title:description:previewImageData:targetContentType:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='NSString*' name='title'/>
+<arg index='2' type='@' declared_type='NSString*' name='description'/>
+<arg index='3' type='@' declared_type='NSData*' name='data'/>
+<arg index='4' type='i' declared_type='QQApiURLTargetType' name='targetContentType'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='objectWithURL:title:description:previewImageURL:targetContentType:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='NSString*' name='title'/>
+<arg index='2' type='@' declared_type='NSString*' name='description'/>
+<arg index='3' type='@' declared_type='NSURL*' name='previewURL'/>
+<arg index='4' type='i' declared_type='QQApiURLTargetType' name='targetContentType'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='previewImageData'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='previewImageURL'>
+<retval type='@' declared_type='NSURL*'/>
+</method>
+<method selector='setPreviewImageData:'>
+<arg index='0' type='@' declared_type='NSData*' name='previewImageData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setPreviewImageURL:'>
+<arg index='0' type='@' declared_type='NSURL*' name='previewImageURL'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setTargetContentType:'>
+<arg index='0' type='i' declared_type='QQApiURLTargetType' name='targetContentType'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setUrl:'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='targetContentType'>
+<retval type='i' declared_type='QQApiURLTargetType'/>
+</method>
+<method selector='url'>
+<retval type='@' declared_type='NSURL*'/>
+</method>
+</class>
+<class name='QQApiVideoObject'>
+<method selector='objectWithURL:title:description:previewImageData:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='NSString*' name='title'/>
+<arg index='2' type='@' declared_type='NSString*' name='description'/>
+<arg index='3' type='@' declared_type='NSData*' name='data'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='objectWithURL:title:description:previewImageURL:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='NSString*' name='title'/>
+<arg index='2' type='@' declared_type='NSString*' name='description'/>
+<arg index='3' type='@' declared_type='NSURL*' name='previewURL'/>
+<retval type='@' declared_type='id'/>
+</method>
+</class>
+<class name='QQBaseReq'>
+<method selector='setType:'>
+<arg index='0' type='i' declared_type='int' name='type'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='type'>
+<retval type='i' declared_type='int'/>
+</method>
+</class>
+<class name='QQBaseResp'>
+<method selector='errorDescription'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='extendInfo'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='result'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setErrorDescription:'>
+<arg index='0' type='@' declared_type='NSString*' name='errorDescription'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setExtendInfo:'>
+<arg index='0' type='@' declared_type='NSString*' name='extendInfo'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setResult:'>
+<arg index='0' type='@' declared_type='NSString*' name='result'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setType:'>
+<arg index='0' type='i' declared_type='int' name='type'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='type'>
+<retval type='i' declared_type='int'/>
+</method>
+</class>
+<class name='SendMessageToQQReq'>
+<method selector='message'>
+<retval type='@' declared_type='QQApiObject*'/>
+</method>
+<method selector='reqWithContent:' class_method='true'>
+<arg index='0' type='@' declared_type='QQApiObject*' name='message'/>
+<retval type='@' declared_type='SendMessageToQQReq*'/>
+</method>
+<method selector='setMessage:'>
+<arg index='0' type='@' declared_type='QQApiObject*' name='message'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='SendMessageToQQResp'>
+<method selector='respWithResult:errorDescription:extendInfo:' class_method='true'>
+<arg index='0' type='@' declared_type='NSString*' name='result'/>
+<arg index='1' type='@' declared_type='NSString*' name='errDesp'/>
+<arg index='2' type='@' declared_type='NSString*' name='extendInfo'/>
+<retval type='@' declared_type='SendMessageToQQResp*'/>
+</method>
+</class>
+<class name='SendMessageToWXReq'>
+<method selector='bText'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='message'>
+<retval type='@' declared_type='WXMediaMessage*'/>
+</method>
+<method selector='scene'>
+<retval type='i' declared_type='int'/>
+</method>
+<method selector='setBText:'>
+<arg index='0' type='B' declared_type='BOOL' name='bText'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setMessage:'>
+<arg index='0' type='@' declared_type='WXMediaMessage*' name='message'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setScene:'>
+<arg index='0' type='i' declared_type='int' name='scene'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setText:'>
+<arg index='0' type='@' declared_type='NSString*' name='text'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='text'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+</class>
+<class name='ShowMessageFromQQReq'>
+<method selector='message'>
+<retval type='@' declared_type='QQApiObject*'/>
+</method>
+<method selector='reqWithContent:' class_method='true'>
+<arg index='0' type='@' declared_type='QQApiObject*' name='message'/>
+<retval type='@' declared_type='ShowMessageFromQQReq*'/>
+</method>
+<method selector='setMessage:'>
+<arg index='0' type='@' declared_type='QQApiObject*' name='message'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='ShowMessageFromQQResp'>
+<method selector='respWithResult:errorDescription:' class_method='true'>
+<arg index='0' type='@' declared_type='NSString*' name='result'/>
+<arg index='1' type='@' declared_type='NSString*' name='errDesp'/>
+<retval type='@' declared_type='ShowMessageFromQQResp*'/>
+</method>
+</class>
+<class name='ShowMessageFromWXReq'>
+<method selector='message'>
+<retval type='@' declared_type='WXMediaMessage*'/>
+</method>
+<method selector='setMessage:'>
+<arg index='0' type='@' declared_type='WXMediaMessage*' name='message'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TCAPIRequest'>
+<method selector='apiURL'>
+<retval type='@' declared_type='NSURL*'/>
+</method>
+<method selector='cancel'>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='method'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='paramUserData'>
+<retval type='@' declared_type='TCRequiredId'/>
+</method>
+<method selector='response'>
+<retval type='@' declared_type='APIResponse*'/>
+</method>
+<method selector='setParamUserData:'>
+<arg index='0' type='@' declared_type='TCRequiredId' name='paramUserData'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TCAddAlbumDic'>
+<method selector='dictionary' class_method='true'>
+<retval type='@' declared_type='TCAddAlbumDic*'/>
+</method>
+<method selector='paramAlbumdesc'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramAlbumname'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='paramAnswer'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramPriv'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramQuestion'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='setParamAlbumdesc:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramAlbumdesc'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamAlbumname:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramAlbumname'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamAnswer:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramAnswer'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamPriv:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramPriv'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamQuestion:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramQuestion'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TCAddOneBlogDic'>
+<method selector='dictionary' class_method='true'>
+<retval type='@' declared_type='TCAddOneBlogDic*'/>
+</method>
+<method selector='paramContent'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='paramTitle'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='setParamContent:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramContent'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamTitle:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramTitle'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TCAddShareDic'>
+<method selector='dictionary' class_method='true'>
+<retval type='@' declared_type='TCAddShareDic*'/>
+</method>
+<method selector='paramComment'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramFromurl'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='paramImages'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramNswb'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramPlayurl'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramSite'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='paramSummary'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramTitle'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='paramType'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramUrl'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='setParamComment:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramComment'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamFromurl:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramFromurl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamImages:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramImages'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamNswb:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramNswb'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamPlayurl:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramPlayurl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamSite:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramSite'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamSummary:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramSummary'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamTitle:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramTitle'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamType:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramType'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamUrl:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TCAddTopicDic'>
+<method selector='dictionary' class_method='true'>
+<retval type='@' declared_type='TCAddTopicDic*'/>
+</method>
+<method selector='paramCon'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='paramLbs_nm'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramLbs_x'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramLbs_y'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramRichtype'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramRichval'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramThirdSource'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='setParamCon:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramCon'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamLbs_nm:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramLbs_nm'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamLbs_x:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramLbs_x'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamLbs_y:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramLbs_y'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamRichtype:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramRichtype'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamRichval:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramRichval'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamThirdSource:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramThirdSource'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TCCheckPageFansDic'>
+<method selector='dictionary' class_method='true'>
+<retval type='@' declared_type='TCCheckPageFansDic*'/>
+</method>
+<method selector='paramPage_id'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='setParamPage_id:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramPage_id'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TCGetIntimateFriendsDic'>
+<method selector='dictionary' class_method='true'>
+<retval type='@' declared_type='TCGetIntimateFriendsDic*'/>
+</method>
+<method selector='paramReqnum'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='setParamReqnum:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramReqnum'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TCListPhotoDic'>
+<method selector='dictionary' class_method='true'>
+<retval type='@' declared_type='TCListPhotoDic*'/>
+</method>
+<method selector='paramAlbumid'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='setParamAlbumid:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramAlbumid'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TCMatchNickTipsDic'>
+<method selector='dictionary' class_method='true'>
+<retval type='@' declared_type='TCMatchNickTipsDic*'/>
+</method>
+<method selector='paramMatch'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='paramReqnum'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='setParamMatch:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramMatch'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamReqnum:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramReqnum'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TCSendStoryDic'>
+<method selector='dictionary' class_method='true'>
+<retval type='@' declared_type='TCSendStoryDic*'/>
+</method>
+<method selector='paramAct'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='paramDescription'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramPics'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramShareUrl'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramSummary'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramTitle'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='setParamAct:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramAct'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamDescription:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramDescription'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamPics:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramPics'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamShareUrl:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramShareUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamSummary:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramSummary'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamTitle:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='paramTitle'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TCSetUserHeadpic'>
+<method selector='dictionary' class_method='true'>
+<retval type='@' declared_type='TCSetUserHeadpic*'/>
+</method>
+<method selector='paramFileName'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramImage'>
+<retval type='@' declared_type='TCRequiredImage'/>
+</method>
+<method selector='setParamFileName:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramFileName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamImage:'>
+<arg index='0' type='@' declared_type='TCRequiredImage' name='paramImage'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TCUploadPicDic'>
+<method selector='dictionary' class_method='true'>
+<retval type='@' declared_type='TCUploadPicDic*'/>
+</method>
+<method selector='paramAlbumid'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramMobile'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramNeedfeed'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramPhotodesc'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramPicnum'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramPicture'>
+<retval type='@' declared_type='TCRequiredImage'/>
+</method>
+<method selector='paramSuccessnum'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramTitle'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramX'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='paramY'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='setParamAlbumid:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramAlbumid'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamMobile:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramMobile'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamNeedfeed:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramNeedfeed'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamPhotodesc:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramPhotodesc'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamPicnum:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramPicnum'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamPicture:'>
+<arg index='0' type='@' declared_type='TCRequiredImage' name='paramPicture'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamSuccessnum:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramSuccessnum'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamTitle:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramTitle'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamX:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramX'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParamY:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='paramY'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TencentApiInterface'>
+<method selector='canOpenURL:delegate:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='id' name='delegate'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='handleOpenURL:delegate:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='id' name='delegate'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='isTencentAppInstall:' class_method='true'>
+<arg index='0' type='i' declared_type='TecnentPlatformType' name='platform'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='isTencentAppSupportTencentApi:' class_method='true'>
+<arg index='0' type='i' declared_type='TecnentPlatformType' name='platform'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='sendRespMessageToTencentApp:' class_method='true'>
+<arg index='0' type='@' declared_type='TencentApiResp*' name='resp'/>
+<retval type='i' declared_type='TencentApiRetCode'/>
+</method>
+</class>
+<class name='TencentApiReq'>
+<method selector='arrMessage'>
+<retval type='@' declared_type='TCOptionalArray'/>
+</method>
+<method selector='nMessageType'>
+<retval type='i' declared_type='TCRequiredInt'/>
+</method>
+<method selector='nPlatform'>
+<retval type='i' declared_type='NSInteger'/>
+</method>
+<method selector='nSdkVersion'>
+<retval type='i' declared_type='NSInteger'/>
+</method>
+<method selector='nSeq'>
+<retval type='i' declared_type='TCRequiredInt'/>
+</method>
+<method selector='reqFromSeq:type:' class_method='true'>
+<arg index='0' type='i' declared_type='NSInteger' name='apiSeq'/>
+<arg index='1' type='i' declared_type='TencentReqMessageType' name='type'/>
+<retval type='@' declared_type='TencentApiReq*'/>
+</method>
+<method selector='sAppID'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='sDescription'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='setArrMessage:'>
+<arg index='0' type='@' declared_type='TCOptionalArray' name='arrMessage'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSAppID:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='sAppID'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSDescription:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='sDescription'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TencentApiResp'>
+<method selector='nRetCode'>
+<retval type='i' declared_type='TCOptionalInt'/>
+</method>
+<method selector='objReq'>
+<retval type='@' declared_type='TCOptionalReq'/>
+</method>
+<method selector='respFromReq:' class_method='true'>
+<arg index='0' type='@' declared_type='TencentApiReq*' name='req'/>
+<retval type='@' declared_type='TencentApiResp*'/>
+</method>
+<method selector='sRetMsg'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='setNRetCode:'>
+<arg index='0' type='i' declared_type='TCOptionalInt' name='nRetCode'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setObjReq:'>
+<arg index='0' type='@' declared_type='TCOptionalReq' name='objReq'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSRetMsg:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='sRetMsg'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TencentAudioMessageObjV1'>
+<method selector='dataImagePreview'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='initWithAudioUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='url'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='sDescription'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='sImagePreviewUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='sUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setDataImagePreview:'>
+<arg index='0' type='@' declared_type='NSData*' name='dataImagePreview'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSDescription:'>
+<arg index='0' type='@' declared_type='NSString*' name='sDescription'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSImagePreviewUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='sImagePreviewUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='sUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TencentBaseMessageObj'>
+<method selector='dictExpandInfo'>
+<retval type='@' declared_type='NSDictionary*'/>
+</method>
+<method selector='isVaild'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='nVersion'>
+<retval type='i' declared_type='NSInteger'/>
+</method>
+<method selector='sName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setDictExpandInfo:'>
+<arg index='0' type='@' declared_type='NSDictionary*' name='dictExpandInfo'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setNVersion:'>
+<arg index='0' type='i' declared_type='NSInteger' name='nVersion'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSName:'>
+<arg index='0' type='@' declared_type='NSString*' name='sName'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TencentImageAndVideoMessageObjV1'>
+<method selector='initWithMessage:videoUrl:'>
+<arg index='0' type='@' declared_type='NSData*' name='dataImage'/>
+<arg index='1' type='@' declared_type='NSString*' name='url'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='objImageMessage'>
+<retval type='@' declared_type='TencentImageMessageObjV1*'/>
+</method>
+<method selector='objVideoMessage'>
+<retval type='@' declared_type='TencentVideoMessageV1*'/>
+</method>
+<method selector='setDataImage:'>
+<arg index='0' type='@' declared_type='NSData*' name='dataImage'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setObjImageMessage:'>
+<arg index='0' type='@' declared_type='TencentImageMessageObjV1*' name='objImageMessage'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setObjVideoMessage:'>
+<arg index='0' type='@' declared_type='TencentVideoMessageV1*' name='objVideoMessage'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setVideoUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='videoUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TencentImageMessageObjV1'>
+<method selector='dataImage'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='dataThumbImage'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='initWithImageData:'>
+<arg index='0' type='@' declared_type='NSData*' name='dataImage'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='initWithImageUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='url'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='initWithType:'>
+<arg index='0' type='i' declared_type='TencentApiImageSourceType' name='type'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='nType'>
+<retval type='i' declared_type='NSInteger'/>
+</method>
+<method selector='sDescription'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='sUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setDataImage:'>
+<arg index='0' type='@' declared_type='NSData*' name='dataImage'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setDataThumbImage:'>
+<arg index='0' type='@' declared_type='NSData*' name='dataThumbImage'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSDescription:'>
+<arg index='0' type='@' declared_type='NSString*' name='sDescription'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='sUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSzImage:'>
+<arg index='0' type='{CGSize=ff}' declared_type='CGSize' name='szImage'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='szImage'>
+<retval type='{CGSize=ff}' declared_type='CGSize'/>
+</method>
+</class>
+<class name='TencentOAuth'>
+<method selector='CanHandleOpenURL:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='HandleOpenURL:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='accessToken'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='addAlbumWithParams:'>
+<arg index='0' type='@' declared_type='NSMutableDictionary*' name='params'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='addOneBlogWithParams:'>
+<arg index='0' type='@' declared_type='NSMutableDictionary*' name='params'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='addShareWithParams:'>
+<arg index='0' type='@' declared_type='NSMutableDictionary*' name='params'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='addTopicWithParams:'>
+<arg index='0' type='@' declared_type='NSMutableDictionary*' name='params'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='appId'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='authorize:inSafari:'>
+<arg index='0' type='@' declared_type='NSArray*' name='permissions'/>
+<arg index='1' type='B' declared_type='BOOL' name='bInSafari'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='authorize:localAppId:inSafari:'>
+<arg index='0' type='@' declared_type='NSArray*' name='permissions'/>
+<arg index='1' type='@' declared_type='NSString*' name='localAppId'/>
+<arg index='2' type='B' declared_type='BOOL' name='bInSafari'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='cancel:'>
+<arg index='0' type='@' declared_type='id' name='userData'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='cgiRequestWithURL:method:params:callback:'>
+<arg index='0' type='@' declared_type='NSURL*' name='apiURL'/>
+<arg index='1' type='@' declared_type='NSString*' name='method'/>
+<arg index='2' type='@' declared_type='NSDictionary*' name='params'/>
+<arg index='3' type='@' declared_type='id' name='callback'/>
+<retval type='@' declared_type='TCAPIRequest*'/>
+</method>
+<method selector='checkPageFansWithParams:'>
+<arg index='0' type='@' declared_type='NSMutableDictionary*' name='params'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='expirationDate'>
+<retval type='@' declared_type='NSDate*'/>
+</method>
+<method selector='getIntimateFriends:'>
+<arg index='0' type='@' declared_type='NSMutableDictionary*' name='params'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='getListAlbum'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='getListPhotoWithParams:'>
+<arg index='0' type='@' declared_type='NSMutableDictionary*' name='params'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='getUserInfo'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='getVipInfo'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='getVipRichInfo'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='incrAuthWithPermissions:'>
+<arg index='0' type='@' declared_type='NSArray*' name='permissions'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='initWithAppId:andDelegate:'>
+<arg index='0' type='@' declared_type='NSString*' name='appId'/>
+<arg index='1' type='@' declared_type='id' name='delegate'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='isSessionValid'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='localAppId'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='logout:'>
+<arg index='0' type='@' declared_type='id' name='delegate'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='matchNickTips:'>
+<arg index='0' type='@' declared_type='NSMutableDictionary*' name='params'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='openId'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='reauthorizeWithPermissions:'>
+<arg index='0' type='@' declared_type='NSArray*' name='permissions'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='redirectURI'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='sendAPIRequest:callback:'>
+<arg index='0' type='@' declared_type='TCAPIRequest*' name='request'/>
+<arg index='1' type='@' declared_type='id' name='callback'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='sendStory:friendList:'>
+<arg index='0' type='@' declared_type='NSMutableDictionary*' name='params'/>
+<arg index='1' type='@' declared_type='NSArray*' name='fopenIdArray'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='sessionDelegate'>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='setAccessToken:'>
+<arg index='0' type='@' declared_type='NSString*' name='accessToken'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setAppId:'>
+<arg index='0' type='@' declared_type='NSString*' name='appId'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setExpirationDate:'>
+<arg index='0' type='@' declared_type='NSDate*' name='expirationDate'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setLocalAppId:'>
+<arg index='0' type='@' declared_type='NSString*' name='localAppId'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setOpenId:'>
+<arg index='0' type='@' declared_type='NSString*' name='openId'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setRedirectURI:'>
+<arg index='0' type='@' declared_type='NSString*' name='redirectURI'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSessionDelegate:'>
+<arg index='0' type='@' declared_type='id' name='sessionDelegate'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setUserHeadpic:'>
+<arg index='0' type='@' declared_type='NSMutableDictionary*' name='params'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='setUserHeadpic:andViewController:'>
+<arg index='0' type='@' declared_type='NSMutableDictionary*' name='params'/>
+<arg index='1' type='^@' declared_type='UIViewController**' name='viewController'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='uploadPicWithParams:'>
+<arg index='0' type='@' declared_type='NSMutableDictionary*' name='params'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+</class>
+<class name='TencentTextMessageObjV1'>
+<method selector='initWithText:'>
+<arg index='0' type='@' declared_type='NSString*' name='text'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='sText'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setSText:'>
+<arg index='0' type='@' declared_type='NSString*' name='sText'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='TencentVideoMessageV1'>
+<method selector='dataImagePreview'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='initWithType:'>
+<arg index='0' type='i' declared_type='TencentApiVideoSourceType' name='type'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='initWithVideoUrl:type:'>
+<arg index='0' type='@' declared_type='NSString*' name='url'/>
+<arg index='1' type='i' declared_type='TencentApiVideoSourceType' name='type'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='nType'>
+<retval type='i' declared_type='NSInteger'/>
+</method>
+<method selector='sDescription'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='sImagePreviewUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='sUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setDataImagePreview:'>
+<arg index='0' type='@' declared_type='NSData*' name='dataImagePreview'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSDescription:'>
+<arg index='0' type='@' declared_type='NSString*' name='sDescription'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSImagePreviewUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='sImagePreviewUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='sUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='UMSocialAccountEntity'>
+<method selector='accessToken'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='description'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='iconURL'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='initWithPlatformName:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformName'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='isFirstOauth'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='openId'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='platformName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='profileURL'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setAccessToken:'>
+<arg index='0' type='@' declared_type='NSString*' name='accessToken'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setIconURL:'>
+<arg index='0' type='@' declared_type='NSString*' name='iconURL'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setIsFirstOauth:'>
+<arg index='0' type='B' declared_type='BOOL' name='isFirstOauth'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setOpenId:'>
+<arg index='0' type='@' declared_type='NSString*' name='openId'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setPlatformName:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setProfileURL:'>
+<arg index='0' type='@' declared_type='NSString*' name='profileURL'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setUserName:'>
+<arg index='0' type='@' declared_type='NSString*' name='userName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setUsid:'>
+<arg index='0' type='@' declared_type='NSString*' name='usid'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='userName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='usid'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+</class>
+<class name='UMSocialAccountManager'>
+<method selector='isLogin' class_method='true'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='isLoginWithAnonymous' class_method='true'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='isLoginWithSnsAccount' class_method='true'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='isOauthWithPlatform:' class_method='true'>
+<arg index='0' type='@' declared_type='NSString*' name='platformType'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='postCustomAccount:completion:' class_method='true'>
+<arg index='0' type='@' declared_type='UMSocialCustomAccount*' name='customAccount'/>
+<arg index='1' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='postSnsAccount:completion:' class_method='true'>
+<arg index='0' type='@' declared_type='UMSocialAccountEntity*' name='snsAccount'/>
+<arg index='1' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setIsLoginWithAnonymous:' class_method='true'>
+<arg index='0' type='B' declared_type='BOOL' name='anonymous'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSnsAccount:' class_method='true'>
+<arg index='0' type='@' declared_type='UMSocialAccountEntity*' name='snsAccount'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='socialAccountDictionary' class_method='true'>
+<retval type='@' declared_type='NSDictionary*'/>
+</method>
+</class>
+<class name='UMSocialBar'>
+<method selector='barButtons'>
+<retval type='@' declared_type='NSMutableArray*'/>
+</method>
+<method selector='initWithUMSocialData:withViewController:'>
+<arg index='0' type='@' declared_type='UMSocialData*' name='socialData'/>
+<arg index='1' type='@' declared_type='UIViewController*' name='viewController'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='requestUpdateButtonNumber'>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setBarButtons:'>
+<arg index='0' type='@' declared_type='NSMutableArray*' name='barButtons'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSocialData:'>
+<arg index='0' type='@' declared_type='UMSocialData*' name='socialData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSocialUIDelegate:'>
+<arg index='0' type='@' declared_type='id' name='socialUIDelegate'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='socialData'>
+<retval type='@' declared_type='UMSocialData*'/>
+</method>
+<method selector='socialUIDelegate'>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='updateButtonNumber'>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='UMSocialButton'>
+<method selector='buttonName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='clickHandler'>
+<retval type='@?' function_pointer='true' declared_type='ClickHandler'>
+<retval type='v' declared_type='void'/>
+</retval>
+</method>
+<method selector='initWithButtonName:controllerService:controller:'>
+<arg index='0' type='@' declared_type='NSString*' name='buttonName'/>
+<arg index='1' type='@' declared_type='UMSocialControllerServiceComment*' name='controllerService'/>
+<arg index='2' type='@' declared_type='UIViewController*' name='controller'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='initWithButtonName:socialData:controller:'>
+<arg index='0' type='@' declared_type='NSString*' name='buttonName'/>
+<arg index='1' type='@' declared_type='UMSocialData*' name='socialData'/>
+<arg index='2' type='@' declared_type='UIViewController*' name='controller'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='setButtonName:'>
+<arg index='0' type='@' declared_type='NSString*' name='buttonName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setClickHandler:'>
+<arg index='0' type='@?' function_pointer='true' declared_type='ClickHandler' name='clickHandler'>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSocialUIDelegate:'>
+<arg index='0' type='@' declared_type='id' name='socialUIDelegate'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='socialUIDelegate'>
+<retval type='@' declared_type='id'/>
+</method>
+</class>
+<class name='UMSocialConfig'>
+<method selector='addSocialSnsPlatform:' class_method='true'>
+<arg index='0' type='@' declared_type='NSArray*' name='snsPlatformArray'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setBoundsSizeForiPad:' class_method='true'>
+<arg index='0' type='{CGSize=ff}' declared_type='CGSize' name='size'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setDefaultColor:' class_method='true'>
+<arg index='0' type='@' declared_type='UIColor*' name='defaultColor'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setFinishToastIsHidden:position:' class_method='true'>
+<arg index='0' type='B' declared_type='BOOL' name='isHidden'/>
+<arg index='1' type='i' declared_type='UMSocialiToastPosition' name='toastPosition'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setFollowWeiboUids:' class_method='true'>
+<arg index='0' type='@' declared_type='NSDictionary*' name='weiboUids'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setNavigationBarConfig:' class_method='true'>
+<arg index='0' type='@?' function_pointer='true' declared_type='UMNavigationBarConfig' name='navigationConfig'>
+<arg type='@' declared_type='UINavigationBar*'/>
+<arg type='@' declared_type='UIButton*'/>
+<arg type='@' declared_type='UIButton*'/>
+<arg type='@' declared_type='UIButton*'/>
+<arg type='@' declared_type='UIButton*'/>
+<arg type='@' declared_type='UINavigationItem*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setQQAppId:url:importClasses:' class_method='true'>
+<arg index='0' type='@' declared_type='NSString*' name='appId'/>
+<arg index='1' type='@' declared_type='NSString*' name='url'/>
+<arg index='2' type='@' declared_type='NSArray*' name='classes'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setShareGridViewTheme:' class_method='true'>
+<arg index='0' type='@?' function_pointer='true' declared_type='UMGridViewConfig' name='gridViewConfig'>
+<arg type='^{CGContext=}' declared_type='CGContextRef'/>
+<arg type='@' declared_type='UIImageView*'/>
+<arg type='@' declared_type='UILabel*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setShouldCommentWithLocation:' class_method='true'>
+<arg index='0' type='B' declared_type='BOOL' name='shouldCommentWithLocation'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setShouldCommentWithShare:' class_method='true'>
+<arg index='0' type='B' declared_type='BOOL' name='shouldCommentWithShare'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setShouldShareSynchronous:' class_method='true'>
+<arg index='0' type='B' declared_type='BOOL' name='shouldShareSynchronous'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSnsPlatformNames:' class_method='true'>
+<arg index='0' type='@' declared_type='NSArray*' name='platformNames'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSupportQzoneSSO:importClasses:' class_method='true'>
+<arg index='0' type='B' declared_type='BOOL' name='supportQzoneSSO'/>
+<arg index='1' type='@' declared_type='NSArray*' name='classes'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSupportSinaSSO:' class_method='true'>
+<arg index='0' type='B' declared_type='BOOL' name='supportSinaSSO'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSupportedInterfaceOrientations:' class_method='true'>
+<arg index='0' type='I' declared_type='UIInterfaceOrientationMask' name='interfaceOrientations'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setTableViewCellConfig:' class_method='true'>
+<arg index='0' type='@?' function_pointer='true' declared_type='UMTableViewCellConfig' name='tableViewCellConfig'>
+<arg type='@' declared_type='UITableViewCell*'/>
+<arg type='i' declared_type='UMSViewControllerType'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setTheme:' class_method='true'>
+<arg index='0' type='i' declared_type='UMSocialTheme' name='theme'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setWXAppId:url:' class_method='true'>
+<arg index='0' type='@' declared_type='NSString*' name='appId'/>
+<arg index='1' type='@' declared_type='NSString*' name='url'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='shareInstance' class_method='true'>
+<retval type='@' declared_type='UMSocialConfig*'/>
+</method>
+</class>
+<class name='UMSocialControllerService'>
+<method selector='currentNavigationController'>
+<retval type='@' declared_type='UINavigationController*'/>
+</method>
+<method selector='currentSnsPlatformName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='currentViewController'>
+<retval type='@' declared_type='UIViewController*'/>
+</method>
+<method selector='defaultControllerService' class_method='true'>
+<retval type='@' declared_type='UMSocialControllerService*'/>
+</method>
+<method selector='getSnsAccountController'>
+<retval type='@' declared_type='UINavigationController*'/>
+</method>
+<method selector='getSocialAccountController'>
+<retval type='@' declared_type='UINavigationController*'/>
+</method>
+<method selector='getSocialIconActionSheetInController:'>
+<arg index='0' type='@' declared_type='UIViewController*' name='controller'/>
+<retval type='@' declared_type='UMSocialIconActionSheet*'/>
+</method>
+<method selector='getSocialLoginController'>
+<retval type='@' declared_type='UINavigationController*'/>
+</method>
+<method selector='getSocialOauthController:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformType'/>
+<retval type='@' declared_type='UINavigationController*'/>
+</method>
+<method selector='getSocialShareEditController:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformType'/>
+<retval type='@' declared_type='UINavigationController*'/>
+</method>
+<method selector='getSocialShareListController'>
+<retval type='@' declared_type='UINavigationController*'/>
+</method>
+<method selector='getSocialViewController:withSnsType:'>
+<arg index='0' type='i' declared_type='UMSViewControllerType' name='viewControllerType'/>
+<arg index='1' type='@' declared_type='NSString*' name='snsName'/>
+<retval type='@' declared_type='UIViewController*'/>
+</method>
+<method selector='initWithUMSocialData:'>
+<arg index='0' type='@' declared_type='UMSocialData*' name='socialData'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='nextViewController'>
+<retval type='i' declared_type='UMSViewControllerType'/>
+</method>
+<method selector='setCurrentNavigationController:'>
+<arg index='0' type='@' declared_type='UINavigationController*' name='currentNavigationController'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setCurrentSnsPlatformName:'>
+<arg index='0' type='@' declared_type='NSString*' name='currentSnsPlatformName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setCurrentViewController:'>
+<arg index='0' type='@' declared_type='UIViewController*' name='currentViewController'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setNextViewController:'>
+<arg index='0' type='i' declared_type='UMSViewControllerType' name='nextViewController'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setShareText:shareImage:socialUIDelegate:'>
+<arg index='0' type='@' declared_type='NSString*' name='shareText'/>
+<arg index='1' type='@' declared_type='UIImage*' name='shareImage'/>
+<arg index='2' type='@' declared_type='id' name='socialUIDelegate'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSocialData:'>
+<arg index='0' type='@' declared_type='UMSocialData*' name='socialData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSocialUIDelegate:'>
+<arg index='0' type='@' declared_type='id' name='socialUIDelegate'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='socialData'>
+<retval type='@' declared_type='UMSocialData*'/>
+</method>
+<method selector='socialDataService'>
+<retval type='@' declared_type='UMSocialDataService*'/>
+</method>
+<method selector='socialUIDelegate'>
+<retval type='@' declared_type='id'/>
+</method>
+</class>
+<class name='UMSocialControllerServiceComment'>
+<method selector='defaultControllerService' class_method='true'>
+<retval type='@' declared_type='UMSocialControllerServiceComment*'/>
+</method>
+<method selector='getSocialCommentListController'>
+<retval type='@' declared_type='UINavigationController*'/>
+</method>
+</class>
+<class name='UMSocialCustomAccount'>
+<method selector='birthday'>
+<retval type='@' declared_type='NSDate*'/>
+</method>
+<method selector='customData'>
+<retval type='@' declared_type='NSDictionary*'/>
+</method>
+<method selector='gender'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='iconUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='initWithUserName:'>
+<arg index='0' type='@' declared_type='NSString*' name='userName'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='profileUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setBirthday:'>
+<arg index='0' type='@' declared_type='NSDate*' name='birthday'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setCustomData:'>
+<arg index='0' type='@' declared_type='NSDictionary*' name='customData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setGender:'>
+<arg index='0' type='@' declared_type='NSString*' name='gender'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setIconUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='iconUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setProfileUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='profileUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setUserName:'>
+<arg index='0' type='@' declared_type='NSString*' name='userName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setUsid:'>
+<arg index='0' type='@' declared_type='NSString*' name='usid'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='userName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='usid'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+</class>
+<class name='UMSocialData'>
+<method selector='appKey' class_method='true'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='commentImage'>
+<retval type='@' declared_type='UIImage*'/>
+</method>
+<method selector='commentText'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='defaultData' class_method='true'>
+<retval type='@' declared_type='UMSocialData*'/>
+</method>
+<method selector='extConfig'>
+<retval type='@' declared_type='UMSocialExtConfig*'/>
+</method>
+<method selector='getNumber:'>
+<arg index='0' type='i' declared_type='UMSNumberType' name='numberType'/>
+<retval type='i' declared_type='NSInteger'/>
+</method>
+<method selector='identifier'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='initWithIdentifier:'>
+<arg index='0' type='@' declared_type='NSString*' name='identifier'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='initWithIdentifier:withTitle:'>
+<arg index='0' type='@' declared_type='NSString*' name='identifier'/>
+<arg index='1' type='@' declared_type='NSString*' name='title'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='isLike'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='openLog:' class_method='true'>
+<arg index='0' type='B' declared_type='BOOL' name='openLog'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setAppKey:' class_method='true'>
+<arg index='0' type='@' declared_type='NSString*' name='appKey'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setCommentImage:'>
+<arg index='0' type='@' declared_type='UIImage*' name='commentImage'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setCommentText:'>
+<arg index='0' type='@' declared_type='NSString*' name='commentText'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setExtConfig:'>
+<arg index='0' type='@' declared_type='UMSocialExtConfig*' name='extConfig'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setIdentifier:'>
+<arg index='0' type='@' declared_type='NSString*' name='identifier'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setShareImage:'>
+<arg index='0' type='@' declared_type='UIImage*' name='shareImage'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setShareText:'>
+<arg index='0' type='@' declared_type='NSString*' name='shareText'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setTitle:'>
+<arg index='0' type='@' declared_type='NSString*' name='title'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setUrlResource:'>
+<arg index='0' type='@' declared_type='UMSocialUrlResource*' name='urlResource'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='shareImage'>
+<retval type='@' declared_type='UIImage*'/>
+</method>
+<method selector='shareText'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='socialAccount'>
+<retval type='@' declared_type='NSDictionary*'/>
+</method>
+<method selector='title'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='urlResource'>
+<retval type='@' declared_type='UMSocialUrlResource*'/>
+</method>
+</class>
+<class name='UMSocialDataService'>
+<method selector='completion'>
+<retval type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</retval>
+</method>
+<method selector='defaultDataService' class_method='true'>
+<retval type='@' declared_type='UMSocialDataService*'/>
+</method>
+<method selector='initWithUMSocialData:'>
+<arg index='0' type='@' declared_type='UMSocialData*' name='socialData'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='postAddLikeOrCancelWithCompletion:'>
+<arg index='0' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='postCommentWithContent:completion:'>
+<arg index='0' type='@' declared_type='NSString*' name='content'/>
+<arg index='1' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='postCommentWithContent:image:templateText:location:shareToSNSWithUsid:completion:'>
+<arg index='0' type='@' declared_type='NSString*' name='content'/>
+<arg index='1' type='@' declared_type='UIImage*' name='image'/>
+<arg index='2' type='@' declared_type='NSString*' name='templateText'/>
+<arg index='3' type='@' declared_type='CLLocation*' name='location'/>
+<arg index='4' type='@' declared_type='NSDictionary*' name='shareToSNS'/>
+<arg index='5' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='postSNSWithTypes:content:image:location:urlResource:completion:'>
+<arg index='0' type='@' declared_type='NSArray*' name='platformTypes'/>
+<arg index='1' type='@' declared_type='NSString*' name='content'/>
+<arg index='2' type='@' declared_type='UIImage*' name='image'/>
+<arg index='3' type='@' declared_type='CLLocation*' name='location'/>
+<arg index='4' type='@' declared_type='UMSocialUrlResource*' name='urlResource'/>
+<arg index='5' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='postSNSWithTypes:content:image:location:urlResource:presentedController:completion:'>
+<arg index='0' type='@' declared_type='NSArray*' name='platformTypes'/>
+<arg index='1' type='@' declared_type='NSString*' name='content'/>
+<arg index='2' type='@' declared_type='UIImage*' name='image'/>
+<arg index='3' type='@' declared_type='CLLocation*' name='location'/>
+<arg index='4' type='@' declared_type='UMSocialUrlResource*' name='urlResource'/>
+<arg index='5' type='@' declared_type='UIViewController*' name='presentedController'/>
+<arg index='6' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='requestAddFollow:followedUsid:completion:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformType'/>
+<arg index='1' type='@' declared_type='NSArray*' name='usids'/>
+<arg index='2' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='requestBindToSnsWithType:completion:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformType'/>
+<arg index='1' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='requestCommentList:completion:'>
+<arg index='0' type='q' declared_type='long long' name='lastCommentTime'/>
+<arg index='1' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='requestSnsFriends:completion:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformType'/>
+<arg index='1' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='requestSnsInformation:completion:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformType'/>
+<arg index='1' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='requestSocialAccountWithCompletion:'>
+<arg index='0' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='requestSocialDataWithCompletion:'>
+<arg index='0' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='requestUnBindToSnsWithCompletion:'>
+<arg index='0' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='requestUnOauthWithType:completion:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformType'/>
+<arg index='1' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setCompletion:'>
+<arg index='0' type='@?' function_pointer='true' declared_type='UMSocialDataServiceCompletion' name='completion'>
+<arg type='@' declared_type='UMSocialResponseEntity*'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSocialData:'>
+<arg index='0' type='@' declared_type='UMSocialData*' name='socialData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setUMSocialDelegate:'>
+<arg index='0' type='@' declared_type='id' name='delegate'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='socialData'>
+<retval type='@' declared_type='UMSocialData*'/>
+</method>
+<method selector='socialDataDelegate'>
+<retval type='@' declared_type='id'/>
+</method>
+</class>
+<class name='UMSocialExtConfig'>
+<method selector='appUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='mailMessage'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setAppUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='appUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setMailMessage:'>
+<arg index='0' type='@' declared_type='NSString*' name='mailMessage'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setThumbUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='thumbUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setTitle:'>
+<arg index='0' type='@' declared_type='NSString*' name='title'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setWxDescription:'>
+<arg index='0' type='@' declared_type='NSString*' name='wxDescription'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setWxMediaObject:'>
+<arg index='0' type='@' declared_type='id' name='wxMediaObject'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setWxMessageType:'>
+<arg index='0' type='i' declared_type='UMSocialWXMessageType' name='wxMessageType'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='thumbUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='title'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='wxDescription'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='wxMediaObject'>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='wxMessageType'>
+<retval type='i' declared_type='UMSocialWXMessageType'/>
+</method>
+</class>
+<class name='UMSocialIconActionSheet'>
+<method selector='dismiss'>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='showInView:'>
+<arg index='0' type='@' declared_type='UIView*' name='showView'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='UMSocialResponseEntity'>
+<method selector='data'>
+<retval type='@' declared_type='NSDictionary*'/>
+</method>
+<method selector='description'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='error'>
+<retval type='@' declared_type='NSError*'/>
+</method>
+<method selector='message'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='responseCode'>
+<retval type='i' declared_type='UMSResponseCode'/>
+</method>
+<method selector='responseType'>
+<retval type='i' declared_type='UMSResponse'/>
+</method>
+<method selector='setData:'>
+<arg index='0' type='@' declared_type='NSDictionary*' name='data'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setError:'>
+<arg index='0' type='@' declared_type='NSError*' name='error'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setMessage:'>
+<arg index='0' type='@' declared_type='NSString*' name='message'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setResponseCode:'>
+<arg index='0' type='i' declared_type='UMSResponseCode' name='responseCode'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setResponseType:'>
+<arg index='0' type='i' declared_type='UMSResponse' name='responseType'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setViewControllerType:'>
+<arg index='0' type='i' declared_type='UMSViewControllerType' name='viewControllerType'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='viewControllerType'>
+<retval type='i' declared_type='UMSViewControllerType'/>
+</method>
+</class>
+<class name='UMSocialSnsPlatform'>
+<method selector='bigImageName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='displayName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='initWithPlatformName:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformName'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='loginClickHandler'>
+<retval type='@?' function_pointer='true' declared_type='UMSocialSnsPlatformLoginHandler'>
+<arg type='@' declared_type='UIViewController*'/>
+<arg type='@' declared_type='UMSocialControllerService*'/>
+<arg type='B' declared_type='BOOL'/>
+<arg type='@?' declared_type='UMSocialDataServiceCompletion'/>
+<retval type='v' declared_type='void'/>
+</retval>
+</method>
+<method selector='loginName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='platformName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='setBigImageName:'>
+<arg index='0' type='@' declared_type='NSString*' name='bigImageName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setDisplayName:'>
+<arg index='0' type='@' declared_type='NSString*' name='displayName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setLoginClickHandler:'>
+<arg index='0' type='@?' function_pointer='true' declared_type='UMSocialSnsPlatformLoginHandler' name='loginClickHandler'>
+<arg type='@' declared_type='UIViewController*'/>
+<arg type='@' declared_type='UMSocialControllerService*'/>
+<arg type='B' declared_type='BOOL'/>
+<arg type='@?' declared_type='UMSocialDataServiceCompletion'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setLoginName:'>
+<arg index='0' type='@' declared_type='NSString*' name='loginName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setPlatformName:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setShareToType:'>
+<arg index='0' type='i' declared_type='UMSocialSnsType' name='shareToType'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSmallImageName:'>
+<arg index='0' type='@' declared_type='NSString*' name='smallImageName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSmallImageOffName:'>
+<arg index='0' type='@' declared_type='NSString*' name='smallImageOffName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setSnsClickHandler:'>
+<arg index='0' type='@?' function_pointer='true' declared_type='UMSocialSnsPlatformClickHandler' name='snsClickHandler'>
+<arg type='@' declared_type='UIViewController*'/>
+<arg type='@' declared_type='UMSocialControllerService*'/>
+<arg type='B' declared_type='BOOL'/>
+<retval type='v' declared_type='void'/>
+</arg>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='shareToType'>
+<retval type='i' declared_type='UMSocialSnsType'/>
+</method>
+<method selector='smallImageName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='smallImageOffName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='snsClickHandler'>
+<retval type='@?' function_pointer='true' declared_type='UMSocialSnsPlatformClickHandler'>
+<arg type='@' declared_type='UIViewController*'/>
+<arg type='@' declared_type='UMSocialControllerService*'/>
+<arg type='B' declared_type='BOOL'/>
+<retval type='v' declared_type='void'/>
+</retval>
+</method>
+</class>
+<class name='UMSocialSnsPlatformManager'>
+<method selector='allSnsPlatformDictionary'>
+<retval type='@' declared_type='NSDictionary*'/>
+</method>
+<method selector='allSnsValuesArray'>
+<retval type='@' declared_type='NSArray*'/>
+</method>
+<method selector='getSnsPlatformString:' class_method='true'>
+<arg index='0' type='i' declared_type='UMSocialSnsType' name='socialSnsType'/>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='getSnsPlatformStringFromIndex:' class_method='true'>
+<arg index='0' type='i' declared_type='NSInteger' name='snsIndex'/>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='getSocialPlatformWithName:' class_method='true'>
+<arg index='0' type='@' declared_type='NSString*' name='snsName'/>
+<retval type='@' declared_type='UMSocialSnsPlatform*'/>
+</method>
+<method selector='setAllSnsPlatformDictionary:'>
+<arg index='0' type='@' declared_type='NSDictionary*' name='allSnsPlatformDictionary'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='sharedInstance' class_method='true'>
+<retval type='@' declared_type='UMSocialSnsPlatformManager*'/>
+</method>
+</class>
+<class name='UMSocialSnsService'>
+<method selector='applicationDidBecomeActive' class_method='true'>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='handleOpenURL:wxApiDelegate:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='id' name='wxApiDelegate'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='presentSnsController:appKey:shareText:shareImage:shareToSnsNames:delegate:' class_method='true'>
+<arg index='0' type='@' declared_type='UIViewController*' name='controller'/>
+<arg index='1' type='@' declared_type='NSString*' name='appKey'/>
+<arg index='2' type='@' declared_type='NSString*' name='shareText'/>
+<arg index='3' type='@' declared_type='UIImage*' name='shareImage'/>
+<arg index='4' type='@' declared_type='NSArray*' name='snsNames'/>
+<arg index='5' type='@' declared_type='id' name='delegate'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='presentSnsIconSheetView:appKey:shareText:shareImage:shareToSnsNames:delegate:' class_method='true'>
+<arg index='0' type='@' declared_type='UIViewController*' name='controller'/>
+<arg index='1' type='@' declared_type='NSString*' name='appKey'/>
+<arg index='2' type='@' declared_type='NSString*' name='shareText'/>
+<arg index='3' type='@' declared_type='UIImage*' name='shareImage'/>
+<arg index='4' type='@' declared_type='NSArray*' name='snsNames'/>
+<arg index='5' type='@' declared_type='id' name='delegate'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='sharedInstance' class_method='true'>
+<retval type='@' declared_type='UMSocialSnsService*'/>
+</method>
+</class>
+<class name='UMSocialUrlResource'>
+<method selector='author'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='initWithSnsResourceType:url:'>
+<arg index='0' type='i' declared_type='UMSocialUrlResourceType' name='resourceType'/>
+<arg index='1' type='@' declared_type='NSString*' name='url'/>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='resourceType'>
+<retval type='i' declared_type='UMSocialUrlResourceType'/>
+</method>
+<method selector='setAuthor:'>
+<arg index='0' type='@' declared_type='NSString*' name='author'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setResourceType:'>
+<arg index='0' type='i' declared_type='UMSocialUrlResourceType' name='resourceType'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setResourceType:url:'>
+<arg index='0' type='i' declared_type='UMSocialUrlResourceType' name='resourceType'/>
+<arg index='1' type='@' declared_type='NSString*' name='url'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setTitle:'>
+<arg index='0' type='@' declared_type='NSString*' name='title'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='url'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='title'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='url'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+</class>
+<class name='WXApi'>
+<method selector='getApiVersion' class_method='true'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='getWXAppInstallUrl' class_method='true'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='handleOpenURL:delegate:' class_method='true'>
+<arg index='0' type='@' declared_type='NSURL*' name='url'/>
+<arg index='1' type='@' declared_type='id' name='delegate'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='isWXAppInstalled' class_method='true'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='isWXAppSupportApi' class_method='true'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='openWXApp' class_method='true'>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='registerApp:' class_method='true'>
+<arg index='0' type='@' declared_type='NSString*' name='appid'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='registerApp:withDescription:' class_method='true'>
+<arg index='0' type='@' declared_type='NSString*' name='appid'/>
+<arg index='1' type='@' declared_type='NSString*' name='appdesc'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='sendReq:' class_method='true'>
+<arg index='0' type='@' declared_type='BaseReq*' name='req'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method selector='sendResp:' class_method='true'>
+<arg index='0' type='@' declared_type='BaseResp*' name='resp'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+</class>
+<class name='WXAppExtendObject'>
+<method selector='extInfo'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='fileData'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='object' class_method='true'>
+<retval type='@' declared_type='WXAppExtendObject*'/>
+</method>
+<method selector='setExtInfo:'>
+<arg index='0' type='@' declared_type='NSString*' name='extInfo'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setFileData:'>
+<arg index='0' type='@' declared_type='NSData*' name='fileData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='url'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='url'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+</class>
+<class name='WXEmoticonObject'>
+<method selector='emoticonData'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='object' class_method='true'>
+<retval type='@' declared_type='WXEmoticonObject*'/>
+</method>
+<method selector='setEmoticonData:'>
+<arg index='0' type='@' declared_type='NSData*' name='emoticonData'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='WXFileObject'>
+<method selector='fileData'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='fileExtension'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='object' class_method='true'>
+<retval type='@' declared_type='WXFileObject*'/>
+</method>
+<method selector='setFileData:'>
+<arg index='0' type='@' declared_type='NSData*' name='fileData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setFileExtension:'>
+<arg index='0' type='@' declared_type='NSString*' name='fileExtension'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='WXImageObject'>
+<method selector='imageData'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='imageUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='object' class_method='true'>
+<retval type='@' declared_type='WXImageObject*'/>
+</method>
+<method selector='setImageData:'>
+<arg index='0' type='@' declared_type='NSData*' name='imageData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setImageUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='imageUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='WXMediaMessage'>
+<method selector='description'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='mediaObject'>
+<retval type='@' declared_type='id'/>
+</method>
+<method selector='mediaTagName'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='message' class_method='true'>
+<retval type='@' declared_type='WXMediaMessage*'/>
+</method>
+<method selector='setDescription:'>
+<arg index='0' type='@' declared_type='NSString*' name='description'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setMediaObject:'>
+<arg index='0' type='@' declared_type='id' name='mediaObject'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setMediaTagName:'>
+<arg index='0' type='@' declared_type='NSString*' name='mediaTagName'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setThumbData:'>
+<arg index='0' type='@' declared_type='NSData*' name='thumbData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setThumbImage:'>
+<arg index='0' type='@' declared_type='UIImage*' name='image'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setTitle:'>
+<arg index='0' type='@' declared_type='NSString*' name='title'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='thumbData'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='title'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+</class>
+<class name='WXMusicObject'>
+<method selector='musicDataUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='musicLowBandDataUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='musicLowBandUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='musicUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='object' class_method='true'>
+<retval type='@' declared_type='WXMusicObject*'/>
+</method>
+<method selector='setMusicDataUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='musicDataUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setMusicLowBandDataUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='musicLowBandDataUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setMusicLowBandUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='musicLowBandUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setMusicUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='musicUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='WXVideoObject'>
+<method selector='object' class_method='true'>
+<retval type='@' declared_type='WXVideoObject*'/>
+</method>
+<method selector='setVideoLowBandUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='videoLowBandUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setVideoUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='videoUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='videoLowBandUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method selector='videoUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+</class>
+<class name='WXWebpageObject'>
+<method selector='object' class_method='true'>
+<retval type='@' declared_type='WXWebpageObject*'/>
+</method>
+<method selector='setWebpageUrl:'>
+<arg index='0' type='@' declared_type='NSString*' name='webpageUrl'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='webpageUrl'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+</class>
+<class name='WeiBo_add_pic_t_POST'>
+<method selector='param_pic'>
+<retval type='@' declared_type='TCRequiredImage'/>
+</method>
+<method selector='setParam_pic:'>
+<arg index='0' type='@' declared_type='TCRequiredImage' name='param_pic'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='WeiBo_add_t_POST'>
+<method selector='param_clientip'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='param_compatibleflag'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='param_content'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='param_latitude'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='param_longitude'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='setParam_clientip:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='param_clientip'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParam_compatibleflag:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_compatibleflag'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParam_content:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_content'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParam_latitude:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='param_latitude'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParam_longitude:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='param_longitude'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='WeiYun_check_record_GET'>
+<method selector='param_key'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='setParam_key:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_key'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='WeiYun_create_record_POST'>
+<method selector='param_key'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='param_value'>
+<retval type='@' declared_type='NSData*'/>
+</method>
+<method selector='setParam_key:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_key'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParam_value:'>
+<arg index='0' type='@' declared_type='NSData*' name='param_value'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='WeiYun_delete_photo_GET'>
+<method selector='param_file_id'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='setParam_file_id:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_file_id'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='WeiYun_download_photo_GET'>
+<method selector='param_file_id'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='setParam_file_id:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_file_id'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='WeiYun_get_photo_list_GET'>
+<method selector='param_number'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='param_offset'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='setParam_number:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_number'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParam_offset:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_offset'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='WeiYun_get_photo_thumb_GET'>
+<method selector='param_thumb'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='setParam_thumb:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_thumb'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='WeiYun_upload_photo_GET'>
+<method selector='paramUploadData'>
+<retval type='@' declared_type='TCRequiredData'/>
+</method>
+<method selector='param_md5'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='param_name'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='param_sha'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='param_size'>
+<retval type='@' declared_type='TCRequiredStr'/>
+</method>
+<method selector='param_upload_type'>
+<retval type='@' declared_type='TCOptionalStr'/>
+</method>
+<method selector='setParamUploadData:'>
+<arg index='0' type='@' declared_type='TCRequiredData' name='paramUploadData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParam_md5:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_md5'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParam_name:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_name'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParam_sha:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_sha'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParam_size:'>
+<arg index='0' type='@' declared_type='TCRequiredStr' name='param_size'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method selector='setParam_upload_type:'>
+<arg index='0' type='@' declared_type='TCOptionalStr' name='param_upload_type'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<informal_protocol name='QQApiInterfaceDelegate'>
+<method type='v12@0:4@8' selector='onReq:'>
+<arg index='0' type='@' declared_type='BaseReq*' name='req'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='onResp:'>
+<arg index='0' type='@' declared_type='BaseResp*' name='resp'/>
+<retval type='v' declared_type='void'/>
+</method>
+</informal_protocol>
+<informal_protocol name='TCAPIRequestDelegate'>
+<method type='v16@0:4@8@12' selector='cgiRequest:didResponse:'>
+<arg index='0' type='@' declared_type='TCAPIRequest*' name='request'/>
+<arg index='1' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v36@0:4@8q12q20q28' selector='cgiRequest:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite:'>
+<arg index='0' type='@' declared_type='TCAPIRequest*' name='request'/>
+<arg index='1' type='q' declared_type='long long' name='bytesWritten'/>
+<arg index='2' type='q' declared_type='long long' name='totalBytesWritten'/>
+<arg index='3' type='q' declared_type='long long' name='totalBytesExpectedToWrite'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v36@0:4@8q12q20q28' selector='cgiRequest:didWriteData:totalBytesWritten:expectedTotalBytes:'>
+<arg index='0' type='@' declared_type='TCAPIRequest*' name='request'/>
+<arg index='1' type='q' declared_type='long long' name='bytesWritten'/>
+<arg index='2' type='q' declared_type='long long' name='totalBytesWritten'/>
+<arg index='3' type='q' declared_type='long long' name='expectedTotalBytes'/>
+<retval type='v' declared_type='void'/>
+</method>
+</informal_protocol>
+<informal_protocol name='TCAPIRequestDownloadDelegate'>
+<method type='B16@0:4@8@12' selector='cgiDownloadRequest:shouldBeginDownloadingStorageRequest:'>
+<arg index='0' type='@' declared_type='TCAPIRequest*' name='downloadRequest'/>
+<arg index='1' type='@' declared_type='NSURLRequest*' name='storageRequest'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+</informal_protocol>
+<informal_protocol name='TCAPIRequestUploadDelegate'>
+<method type='B16@0:4@8@12' selector='cgiUploadRequest:shouldBeginUploadingStorageRequest:'>
+<arg index='0' type='@' declared_type='TCAPIRequest*' name='uploadRequest'/>
+<arg index='1' type='@' declared_type='NSURLRequest*' name='storageRequest'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+</informal_protocol>
+<informal_protocol name='TencentApiInterfaceDelegate'>
+<method type='B12@0:4@8' selector='onTencentReq:'>
+<arg index='0' type='@' declared_type='TencentApiReq*' name='req'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method type='B12@0:4@8' selector='onTencentResp:'>
+<arg index='0' type='@' declared_type='TencentApiResp*' name='resp'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+</informal_protocol>
+<informal_protocol name='TencentLoginDelegate'>
+<method type='@16@0:4@8@12' selector='getAuthorizedPermissions:withExtraParams:'>
+<arg index='0' type='@' declared_type='NSArray*' name='permissions'/>
+<arg index='1' type='@' declared_type='NSDictionary*' name='extraParams'/>
+<retval type='@' declared_type='NSArray*'/>
+</method>
+<method type='v8@0:4' selector='tencentDidLogin'>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4B8' selector='tencentDidNotLogin:'>
+<arg index='0' type='B' declared_type='BOOL' name='cancelled'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v8@0:4' selector='tencentDidNotNetWork'>
+<retval type='v' declared_type='void'/>
+</method>
+</informal_protocol>
+<informal_protocol name='TencentSessionDelegate'>
+<method type='v12@0:4@8' selector='addAlbumResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='addOneBlogResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='addShareResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='addTopicResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='checkPageFansResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='getIntimateFriendsResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='getListAlbumResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='getListPhotoResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='getUserInfoResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='getVipInfoResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='getVipRichInfoResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='matchNickTipsResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='sendStoryResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='setUserHeadpicResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v8@0:4' selector='tencentDidLogout'>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='tencentDidUpdate:'>
+<arg index='0' type='@' declared_type='TencentOAuth*' name='tencentOAuth'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4i8' selector='tencentFailedUpdate:'>
+<arg index='0' type='i' declared_type='UpdateFailType' name='reason'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='B16@0:4@8@12' selector='tencentNeedPerformIncrAuth:withPermissions:'>
+<arg index='0' type='@' declared_type='TencentOAuth*' name='tencentOAuth'/>
+<arg index='1' type='@' declared_type='NSArray*' name='permissions'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method type='B12@0:4@8' selector='tencentNeedPerformReAuth:'>
+<arg index='0' type='@' declared_type='TencentOAuth*' name='tencentOAuth'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method type='v28@0:4@8i12i16i20@24' selector='tencentOAuth:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite:userData:'>
+<arg index='0' type='@' declared_type='TencentOAuth*' name='tencentOAuth'/>
+<arg index='1' type='i' declared_type='NSInteger' name='bytesWritten'/>
+<arg index='2' type='i' declared_type='NSInteger' name='totalBytesWritten'/>
+<arg index='3' type='i' declared_type='NSInteger' name='totalBytesExpectedToWrite'/>
+<arg index='4' type='@' declared_type='id' name='userData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v16@0:4@8@12' selector='tencentOAuth:doCloseViewController:'>
+<arg index='0' type='@' declared_type='TencentOAuth*' name='tencentOAuth'/>
+<arg index='1' type='@' declared_type='UIViewController*' name='viewController'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='uploadPicResponse:'>
+<arg index='0' type='@' declared_type='APIResponse*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+</informal_protocol>
+<informal_protocol name='UMSocialDataDelegate'>
+<method type='v12@0:4@8' selector='didFinishGetUMSocialDataResponse:'>
+<arg index='0' type='@' declared_type='UMSocialResponseEntity*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+</informal_protocol>
+<informal_protocol name='UMSocialUIDelegate'>
+<method type='B16@0:4@8@12' selector='closeOauthWebViewController:socialControllerService:'>
+<arg index='0' type='@' declared_type='UINavigationController*' name='navigationCtroller'/>
+<arg index='1' type='@' declared_type='UMSocialControllerService*' name='socialControllerService'/>
+<retval type='B' declared_type='BOOL'/>
+</method>
+<method type='v12@0:4i8' selector='didCloseUIViewController:'>
+<arg index='0' type='i' declared_type='UMSViewControllerType' name='fromViewControllerType'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='didFinishGetUMSocialDataInViewController:'>
+<arg index='0' type='@' declared_type='UMSocialResponseEntity*' name='response'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v16@0:4@8@12' selector='didSelectSocialPlatform:withSocialData:'>
+<arg index='0' type='@' declared_type='NSString*' name='platformName'/>
+<arg index='1' type='@' declared_type='UMSocialData*' name='socialData'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4i8' selector='willCloseUIViewController:'>
+<arg index='0' type='i' declared_type='UMSViewControllerType' name='fromViewControllerType'/>
+<retval type='v' declared_type='void'/>
+</method>
+</informal_protocol>
+<informal_protocol name='WXApiDelegate'>
+<method type='v12@0:4@8' selector='onReq:'>
+<arg index='0' type='@' declared_type='BaseReq*' name='req'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method type='v12@0:4@8' selector='onResp:'>
+<arg index='0' type='@' declared_type='BaseResp*' name='resp'/>
+<retval type='v' declared_type='void'/>
+</method>
+</informal_protocol>
+</signatures>

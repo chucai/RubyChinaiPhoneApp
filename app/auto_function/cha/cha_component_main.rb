@@ -341,10 +341,15 @@ module ChaComponent
   end
 
 
-  def web(url, frame)
+  def web(url, frame, text=nil)
+    frame = get_frame(frame)
     webView = UIWebView.alloc.initWithFrame(frame)
-    request = NSURLRequest.requestWithURL(NSURL.URLWithString(url))
-    webView.loadRequest request
+    if text
+      webView.loadHTMLString(text, baseURL:nil)
+    else
+      request = NSURLRequest.requestWithURL(NSURL.URLWithString(url))
+      webView.loadRequest request
+    end
     webView
   end
 

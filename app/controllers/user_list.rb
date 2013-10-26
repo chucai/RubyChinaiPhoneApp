@@ -15,6 +15,8 @@ class UserList < PM::Screen
     @data     = []
     view << @main  = full_view
     # @main << nav_bar('title-company', 'search', 'search')
+    navigationItem.leftBarButtonItem      = bar_item("菜单", 'menu')
+    
     init_table_view
   end
 
@@ -63,19 +65,14 @@ class UserList < PM::Screen
   def init_table_view
     
     width  ||= view.bounds.size.width
-    height ||= view.bounds.size.height - 45
+    height ||= view.bounds.size.height
 
     @table_view                  = UITableView.plain
     @table_view.delegate         = self
     @table_view.dataSource       = self
-    @table_view.frame            = [[0, 45], [width, height]]
+    @table_view.frame            = [[0, 0], [width, height]]
     @table_view.autoresizingMask = UIViewAutoresizingFlexibleHeight
 
-    bg                = UIImageView.new
-    bg.image          = 'bg'.uiimage
-
-    @table_view.backgroundView   = bg
-         
     # @table_view.separatorStyle   = UITableViewCellSeparatorStyleNone
     @table_view.addPullToRefreshWithActionHandler -> { reload_data }
     @table_view.tableFooterView  = footer
@@ -107,7 +104,7 @@ class UserList < PM::Screen
       cell = empty_cell
 
       cell << image(user.avatar_url,  '10,5,60,60')
-      cell << label(user.name,      '80,10,200,15', 15)
+      cell << label(user.login,      '80,10,200,15', 15)
       cell << label(user.company,   '80,30,200,15', 14)
       cell << label(user.location,  '80,50,200,15', 14)
 
@@ -119,6 +116,8 @@ class UserList < PM::Screen
 
   def tableView(tableView, didSelectRowAtIndexPath:indexPath)
     # push Company.new
+      user = User.new(@data[indexPath.row])
+      push TopicList.alloc.initWithUser(user.login)
   end
 
   def tableView(tableView, numberOfRowsInSection:section)
@@ -138,6 +137,8 @@ class UserList < PM::Screen
     SVProgressHUD.dismiss
   end 
 
-
+  def menu
+    App.delegate.slide_menu.show_menu
+  end
 
 end

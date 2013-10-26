@@ -1,7 +1,7 @@
 class Topic
   attr_accessor :id, :title, :created_at, :updated_at, :replied_at, :replied_count, 
                 :node_name, :node_id, :last_reply_user_id, :last_reply_user_login, 
-                :user, :body, :replies, :hits
+                :user, :body, :body_html, :replies, :hits
 
   def initialize(json={})
     @id         = json[:id]
@@ -9,6 +9,7 @@ class Topic
     @created_at = json[:created_at]
     @replied_count = json[:replied_count]
     @body       = json[:body]
+    @body_html  = json[:body_html]
     @user       = User.new(json[:user])
     @created_at = json[:created_at][0,19].to_s.to_date
     @updated_at = json[:updated_at][0,19].to_s.to_date

@@ -3,18 +3,46 @@ class TopicList < PM::Screen
   include ChaComponent
   include Common
 
-  CELL_HEIGHT = 60
+  CELL_HEIGHT = 50
+
+
+  def initWithNodeId(id)
+    if initWithNibName(nil, bundle:nil)
+      @node_id = id
+    end
+    self
+  end
+
+  # def initWithUser(login)
+  #   if initWithNibName(nil, bundle:nil)
+  #     @user = login
+  #   end
+  #   self
+  # end
+
+  def url
+    if @user
+      "users/#{@user}/topics.json"
+    elsif @node_id
+      "topics/node/#{@node_id}.json"
+    else
+      "topics.json"
+    end
+  end
 
   def loadView
     super
 
     @page     = 1
     @loading  = false
-    @list_url = "topics.json"
+    @list_url = url
+
     @params   = {}
     @data     = []
     view << @main  = full_view
-    # @main << nav_bar('title-company', 'search', 'search')
+    
+    navigationItem.leftBarButtonItem      = bar_item("菜单", 'menu')
+    
     init_table_view
   end
 
@@ -24,7 +52,8 @@ class TopicList < PM::Screen
 
   def viewDidLoad
     super
-    self.title  = "主题"
+
+    self.title  = @user ? "#{@user}的主题" : "主题"
 
     @client   = Http.new
 
@@ -70,11 +99,6 @@ class TopicList < PM::Screen
     @table_view.dataSource       = self
     @table_view.frame            = [[0, 0], [width, height]]
     @table_view.autoresizingMask = UIViewAutoresizingFlexibleHeight
-
-    bg                = UIImageView.new
-    bg.image          = 'bg'.uiimage
-
-    @table_view.backgroundView   = bg
          
     # @table_view.separatorStyle   = UITableViewCellSeparatorStyleNone
     @table_view.addPullToRefreshWithActionHandler -> { reload_data }
@@ -105,10 +129,11 @@ class TopicList < PM::Screen
       topic = Topic.new(@data[indexPath.row])
       
       cell = empty_cell
-      cell << label(topic.title, '10,10,300,15', 15)
-      cell << image(topic.user.avatar_url, '10,30,20,20')
-      cell << label(topic.user.login, '36,33,100,15', 14, false, '#222222')
-      cell << label(friendly_time(topic.created_at), '-10,33,80,13', 13, false, '#CCCCCC', :right)
+      height = get_content_height(topic.title, 300, 15)
+      cell << context(topic.title, "10,10,300,#{height}", 15)
+      cell << image(topic.user.avatar_url, "10,#{13+height},15,15")
+      cell << label(topic.user.login, "36,#{13+height},100,15", 14, false, '#222222')
+      cell << label(friendly_time(topic.created_at), "-10,#{13+height},80,13", 13, false, '#CCCCCC', :right)
       # cell.selectionStyle = UITableViewCellSelectionStyleNone
       # cell.accessoryType  = UITableViewCellAccessoryNone
 
@@ -122,14 +147,18 @@ class TopicList < PM::Screen
 
   def tableView(tableView, numberOfRowsInSection:section)
     # return 10
-    return 1 if @data.length == 0
+    return 0 if @data.length == 0
     count = @data.length
     # count += 1 if show_more?(count)
     count
   end
 
   def tableView(tableView, heightForRowAtIndexPath:indexPath)
-    CELL_HEIGHT
+    # p @data[indexPath.row]
+    # return 0 if @data.nil?
+    topic   = Topic.new(@data[indexPath.row])
+    height  = get_content_height(topic.title, 300, 15)
+    CELL_HEIGHT + height - 15
   end
 
   def viewWillDisappear(animated)
@@ -137,6 +166,9 @@ class TopicList < PM::Screen
     SVProgressHUD.dismiss
   end 
 
+  def menu
+    App.delegate.slide_menu.show_menu
+  end
 
 
 end

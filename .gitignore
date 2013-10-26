@@ -1,0 +1,5 @@
+build
+Gemfile.lock
+*.dat
+.DS_Store
+.repl_history

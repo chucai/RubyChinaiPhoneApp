@@ -2,8 +2,8 @@
 class SlideMenu < UIViewController
   include ChaComponent
 
-  MENU      = %w(主题 会员)
-  # MENU_ICON = [%w(my feed message), %w(quan recent), %w(company school ngo), %w(invite review)] 
+  MENU      = %w(主题 版块 会员 关于)
+  MENU_ICON = %w(feed my review invite) 
   MENU_HEIGHT = 45
 
   def loadView
@@ -19,7 +19,7 @@ class SlideMenu < UIViewController
 
   def init_menu
 
-    width  = 200
+    width  = 280
     height = view.bounds.size.height
     color  = '#424347'
 
@@ -47,38 +47,32 @@ class SlideMenu < UIViewController
       cell = empty_cell
       cell.selectionStyle = UITableViewCellSelectionStyleNone
 
-      # icon_name = 'menu-' + MENU_ICON[indexPath.section-1][indexPath.row] if indexPath.section > 0
-      # cell << image(icon_name, [[20,15], [19,19]])
+      icon_name = 'menu-' + MENU_ICON[indexPath.row]
+      cell << image(icon_name, [[20,15], [19,19]])
       cell << label(MENU[indexPath.row], [[55,15], [150,22]], 16, false, '#FFFFFF')
       cell
   end
 
-  def account_cell
-
-  end
 
   def tableView(tableView, didSelectRowAtIndexPath:indexPath)
-
+    case indexPath.row
+    when 0
+      change TopicList
+    when 1
+      change NodeList
+    when 2
+      change UserList
+    when 3
+      change About
+    end
   end
 
   def change(screen_class)
-    App.delegate.slide_menu.content_controller = screen_class.new
-  end
-
-  def tableView(tableView, viewForHeaderInSection:section)
-    bg = create_view([[0,0], [200,1]], '#5A5A5A')    
-  end
-
-  def tableView(tableView, heightForHeaderInSection:section)
-    # section == 0 ? 0 : 1
-  end
-
-  def numberOfSectionsInTableView(tableView)
-    1# MENU.length
+    App.delegate.slide_menu.content_controller = nav_with_view(screen_class.new)
   end
 
   def tableView(tableView, numberOfRowsInSection:section)
-    2# [1,3,2,3,2][section]
+    MENU.length
   end
 
   def tableView(tableView, heightForRowAtIndexPath:indexPath)

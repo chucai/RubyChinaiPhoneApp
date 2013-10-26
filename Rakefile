@@ -48,6 +48,7 @@ Motion::Project::App.setup do |app|
                       'frameworks/WeChat/libWeChatSDK.a'])  
 
   app.pods do
+    # pod 'DTCoreText'
     pod 'JSONKit'
     pod 'SDWebImage'
     pod 'SVProgressHUD'

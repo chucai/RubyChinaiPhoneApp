@@ -32,7 +32,6 @@ class TopicDetail < PM::Screen
     navigationItem.rightBarButtonItem      = bar_item("分享", 'share')
     
   end
-
   
 
   def viewDidLoad
@@ -55,6 +54,7 @@ class TopicDetail < PM::Screen
       if json.nil?
         App.alert('网络连接不正常，请调整网络后重新尝试')
       else
+        warn(json)
         @topic = Topic.new(json)
         @table_view.reloadData
       end
@@ -106,9 +106,10 @@ class TopicDetail < PM::Screen
       cell << label(@topic.title, '10,10,300,15', 15)
       cell << image(@topic.user.avatar_url, '10,30,20,20')
       cell << label(@topic.user.login, '40,30,100,15', 14, false, '#CCCCCC')
-
-      height = get_content_height(@topic.body, 300, 14)
-      cell << context(@topic.body, "10,60,300,#{height}", 14)
+      html = "<html><body>#{@topic.body_html}</body></html>"
+      cell << web('', '0,60,320,300', html)
+      # height = get_content_height(@topic.body, 300, 14)
+      # cell << context(@topic.body, "10,60,300,#{height}", 14)
       cell.selectionStyle = UITableViewCellSelectionStyleNone
       cell.accessoryType  = UITableViewCellAccessoryNone
 
@@ -124,7 +125,8 @@ class TopicDetail < PM::Screen
       cell << label(user.login,       '40,10,100,15', 14, false, '#333333')
       cell << label(friendly_time(reply.created_at), '-10,10,100,13', 13, false, '#CCCCCC', :right)
       height = height = get_content_height(reply.body, 270, 14)
-      cell << label(reply.body,       "40,50,270,#{height}", 14)
+      cell << context(reply.body,       "40,30,270,#{height}", 14)
+  
       cell.selectionStyle = UITableViewCellSelectionStyleNone
       cell.accessoryType  = UITableViewCellAccessoryNone
 
@@ -146,10 +148,11 @@ class TopicDetail < PM::Screen
 
   def tableView(tableView, heightForRowAtIndexPath:indexPath)
     if indexPath.row == 0
-      get_content_height(@topic.body, 300, 14) + 80
+      370
+      # get_content_height(@topic.body, 300, 14) + 80
     else
       reply = @topic.replies[indexPath.row-1]
-      get_content_height(reply.body, 270, 14) + 60
+      get_content_height(reply.body, 270, 14) + 40
     end
   end
 

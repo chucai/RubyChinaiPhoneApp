@@ -8,6 +8,11 @@
 3. bundle install
 4. rake
 
+App截图
+==================
+![](http://l.ruby-china.org/photo/f1e138e47e8fcaf03850f168d1c847bc.png)
+
+![](http://l.ruby-china.org/photo/41e345110c720f6232240c713287c087.png)
 
 目前已完成的功能：
 ==================
